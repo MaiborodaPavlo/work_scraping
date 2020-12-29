@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <form method="GET" action="">
+                <div class="form-group">
+                    {{ form.as_p }}
+                </div>
+                <button type="submit" class="btn btn-primary">Find</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+    {% for object in object_list %}
+        <div class="card my-2">
+            <div class="card-header">
+                <a href="{{ object.url }}">{{ object.title }}</a>
+            </div>
+            <div class="card-body">
+                <h4>{{ object.company }}</h4>
+                <p class="card-text">{{ object.description }}</p>
+                <p>{{ object.city.name }} | {{ object.language.name }} | {{ object.created|date:'d-m-Y' }}</p>
+            </div>
+        </div>
+    {% empty %}
+        <div class="col-md-6 mx-auto">
+            <h3>Sorry, but nothing matched your search criteria.</h3>
+        </div>
+    {% endfor %}
+{% endblock %}
