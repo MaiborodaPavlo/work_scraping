@@ -1,3 +1,4 @@
+import jsonfield
 from django.db import models
 
 from .utils import slug_cir_to_en
@@ -40,3 +41,12 @@ class Vacancy(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Url(models.Model):
+    city = models.ForeignKey('City', on_delete=models.CASCADE)
+    language = models.ForeignKey('Language', on_delete=models.CASCADE)
+    data = jsonfield.JSONField(default={'work': '', 'rabota': '', 'dou': '', 'djinni': ''})
+
+    class Meta:
+        unique_together = ('city', 'language')
