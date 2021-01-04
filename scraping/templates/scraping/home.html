@@ -7,7 +7,11 @@
 {% block content %}
     <div class="row">
         <div class="col-md-6 mx-auto">
-            <form method="GET" action="">
+            <div class="text-center my-2">
+                <h5>Service for the collection and mailing of vacancies</h5>
+                <p>To view available vacancies fill out the form below</p>
+            </div>
+            <form>
                 <div class="form-group">
                     {{ form.as_p }}
                 </div>
@@ -15,21 +19,42 @@
             </form>
         </div>
     </div>
-    <hr>
-    {% for object in object_list %}
-        <div class="card my-2">
-            <div class="card-header">
-                <a href="{{ object.url }}">{{ object.title }}</a>
+    {% if object_list is not None %}
+        <hr>
+        {% for object in object_list %}
+            <div class="card my-2">
+                <div class="card-header">
+                    <a href="{{ object.url }}">{{ object.title }}</a>
+                </div>
+                <div class="card-body">
+                    <h4>{{ object.company }}</h4>
+                    <p class="card-text">{{ object.description }}</p>
+                    <p>{{ object.city.name }} | {{ object.language.name }} | {{ object.created|date:'d-m-Y' }}</p>
+                </div>
             </div>
-            <div class="card-body">
-                <h4>{{ object.company }}</h4>
-                <p class="card-text">{{ object.description }}</p>
-                <p>{{ object.city.name }} | {{ object.language.name }} | {{ object.created|date:'d-m-Y' }}</p>
+        {% empty %}
+            <div class="col-md-6 mx-auto">
+                <h3>Sorry, but nothing matched your search criteria.</h3>
             </div>
-        </div>
-    {% empty %}
-        <div class="col-md-6 mx-auto">
-            <h3>Sorry, but nothing matched your search criteria.</h3>
-        </div>
-    {% endfor %}
+        {% endfor %}
+        {% if object_list %}
+            <ul class="pagination justify-content-center">
+                {% if object_list.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?city={{ city }}&language={{ language }}&page={{ object_list.previous_page_number }}" tabindex="-1">Previous</a>
+                    </li>
+                {% endif %}
+                {% for page in object_list.paginator.page_range %}
+                    <li class="page-item{% if page == object_list.number %} active {% endif %}">
+                        <a class="page-link" href="?city={{ city }}&language={{ language }}&page={{ page }}">{{ page }}</a>
+                    </li>
+                {% endfor %}
+                {% if object_list.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?city={{ city }}&language={{ language }}&page={{ object_list.next_page_number }}">Next</a>
+                    </li>
+                {% endif %}
+            </ul>
+        {% endif %}
+    {% endif %}
 {% endblock %}
