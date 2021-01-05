@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Settings
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="text-center my-2">
+                <h5>Settings</h5>
+            </div>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.as_p }}
+                </div>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+            <hr>
+            <form class="form-inline" method="POST" action="{% url 'accounts:delete' %}">
+                {% csrf_token %}
+                <p>Use Delete button to delete your account</p>
+                <button type="submit" class="btn btn-danger ml-3 mb-3">Delete</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
