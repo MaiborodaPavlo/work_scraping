@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_celery_results',
     'scraping',
     'accounts',
 ]
@@ -174,9 +175,9 @@ RECAPTCHA_SECRET_KEY = os.getenv('RECAPTCHA_SECRET_KEY')
 # REDIS
 REDIS_HOST = os.getenv('REDIS_HOST')
 REDIS_PORT = os.getenv('REDIS_PORT')
-BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+BROKER_URL = os.getenv('REDIS_URL')
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
-CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+CELERY_RESULT_BACKEND = 'django-db'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
