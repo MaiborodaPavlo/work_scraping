@@ -1,0 +1,1 @@
+web: gunicorn work_scraping.wsgi
