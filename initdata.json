@@ -1,0 +1,2766 @@
+[
+{
+  "model": "scraping.city",
+  "pk": 3,
+  "fields": {
+    "name": "\u0425\u0430\u0440\u044c\u043a\u043e\u0432",
+    "slug": "kharkiv"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 4,
+  "fields": {
+    "name": "\u041a\u0438\u0435\u0432",
+    "slug": "kyiv"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 57,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/137532-senior-python-developer-team-lead",
+    "title": "Senior Python Developer/Team Lead",
+    "company": "at\u00a0Maxiru",
+    "description": "- \u043c\u044b \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u0430\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u0430\u044f IT \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u043d\u0430\u044f \u043d\u0430 \u044e\u0433\u0435 \u0421\u0428\u0410, \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0443\u0436\u0435 \u0431\u043e\u043b\u0435\u0435 6 \u043b\u0435\u0442;\r\n\r\n- \u043d\u0430\u0448\u0438\u043c \u0444\u043e\u043a\u0443\u0441\u043e\u043c \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f cruise industry technology, apps ranging from IOT to Algorithms and 3D simulations;-",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 58,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185541-senior-python-developer-for-international-e-c",
+    "title": "Senior Python Developer for International E-commerce and Marketing Company",
+    "company": "at\u00a0Brightgrove",
+    "description": "We're looking for a Senior Python developer.\r\nThe project is a free Browser Extension that saves you time and money when shopping online. The technology recognizes the website (more than 3000 UK e-commerce sites) that you are on, and then displays all the best available voucher codes for that store.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 59,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185505-senior-sre-devops-engineer-ecommerce-digital-",
+    "title": "Senior SRE/DevOps engineer (eCommerce digital)",
+    "company": "at\u00a0Intellias",
+    "description": "Our client is the fastest-growing global tobacco manufacturing company. An international corporation with over hundred years of history, internationally recognized brands and Reduced-Risk Products. Intellias mission is to support their strategy and efforts in Digital and eCommerce space.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 60,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/174658-middle-big-data-engineer",
+    "title": "Middle Big Data Engineer",
+    "company": "at\u00a0Intellias",
+    "description": "Our customer is a niche engineering company based in Leuven, Belgium and specialized in building Data Lakes using Scala, Spark, AWS, airflow and bit of Python. Their customers are big enterprises in Benilux region in Telecom, eCommerce, Energy and other industries.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 61,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185396-senior-big-data-engineer-adtech-",
+    "title": "Senior Big Data Engineer (AdTech)",
+    "company": "at\u00a0Sigma Software",
+    "description": "We have a great opportunity for a bright, smart, and highly motivated Big Data expert willing to join a challenging AdTech project.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 62,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185362-devops-engineer-lamp-aws-for-daxx",
+    "title": "DevOps Engineer (LAMP + AWS) for Daxx",
+    "company": "at\u00a0Daxx",
+    "description": "Daxx is looking for a DevOps Engineer (LAMP + AWS) to join our team in Kyiv, Kharkiv, Dnipro, or remote.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 63,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185338-middle-senior-python-developer-fintech-projec",
+    "title": "Middle/Senior Python Developer (Fintech project)",
+    "company": "at\u00a0Sigma Software",
+    "description": "Are you a professional with hands on Python experience working with multiple technologies, languages? Do you want to be responsible for the whole dev circle: from designing, coding, testing, and up to continuous delivering of software of varying complexity? If yes, then this opportunity is for you!",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 64,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185329-python-engineer-aws-",
+    "title": "Python Engineer (+AWS)",
+    "company": "at\u00a0ITOMYCH STUDIO",
+    "description": "We're looking for a backend software engineer to join our R&D team. The R&D team unites specialists from different technology stacks who work on internal and outsource projects ensuring the exploration and promotion of adopting new technologies whilst prototyping, testing and developing new concepts",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 65,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/171436-senior-s-c-developer-9274",
+    "title": "Senior \u0421 / C++ developer #9274",
+    "company": "at\u00a0Infopulse Ukraine",
+    "description": "We are looking for a \u0421 / C++ developer responsible for new product development, as well as bug fixing of existing products serving the expanding big data, NAS, virtualization, replication, and file systems market",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 66,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185231-data-analyst",
+    "title": "Data Analyst",
+    "company": "at\u00a0GeoGuard",
+    "description": "GeoGuard is the global market-leader in the detection of location-based fraud. Working at the bleeding edge of technology, with Silicon Valley\u2019s most famous names as our customers and partners GeoGuard, is seen as the best; and only wants to hire the best.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 67,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/139756/",
+    "title": "Python FullStack Developer for Meya",
+    "company": "\u00a0Daxx",
+    "description": "\n\t\t\t\t\tAbout Meya\nMeya is\u00a0a\u00a0customer experience automation platform that helps organizations better serve their customers via conversational interfaces on\u00a0websites, mobile apps and more.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 68,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/yael-acceptic/vacancies/143761/",
+    "title": "Python Developer",
+    "company": "\u00a0Yael Acceptic",
+    "description": "\n\t\t\t\t\tWe\u00a0invite a\u00a0self-motivated Python developer who is\u00a0open to\u00a0new opportunities and solutions to\u00a0join a\u00a0growing project that helps farming owners in\u00a0their business.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 69,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/quantum/vacancies/122461/",
+    "title": "Lead Python Developer",
+    "company": "\u00a0Quantum",
+    "description": "\n\t\t\t\t\tThe solution is\u00a0a\u00a0decision support system for different layers of\u00a0the healthcare system to\u00a0support medical personnel following medical protocols for identification, diagnosis, and treatment of\u00a0patients infected with COVID-19.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 70,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sigma-software/vacancies/139266/",
+    "title": "Senior Node.js Developer with Python experience (Service SaaS solution project)",
+    "company": "\u00a0Sigma Software",
+    "description": "\n\t\t\t\t\tOur software development team is\u00a0creating and managing the software and systems behind our state of\u00a0the art technology platform.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 71,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sciforce/vacancies/143557/",
+    "title": "Senior Python Developer",
+    "company": "\u00a0SciForce",
+    "description": "\n\t\t\t\t\tSciforce has an\u00a0opening for an\u00a0experienced Python Developer to\u00a0be\u00a0involved in\u00a0developing the voice technology-related project.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 72,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/flexmade/vacancies/143404/",
+    "title": "Senior Python developer for Logistics &\u00a0Supply Chain company",
+    "company": "\u00a0FlexMade",
+    "description": "\n\t\t\t\t\tAn\u00a0innovative SaaS platform that improves the efficiency of\u00a0the construction and logistics sector through the use of\u00a0especially tailor-made software solutions. Support in\u00a0developing desktop software is\u00a0needed.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 73,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/120487/",
+    "title": "Senior Python (Django) Developer for CRITICALSTART",
+    "company": "\u00a0Daxx",
+    "description": "\n\t\t\t\t\tCRITICALSTART is\u00a0the fastest-growing cybersecurity integrator in\u00a0North America. Our mission is\u00a0simple: protect our customers\u2019 brands and reduce their business risk.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 74,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/itomych-studio/vacancies/137772/",
+    "title": "Python Engineer (+AWS)",
+    "company": "\u00a0ITOMYCH STUDIO",
+    "description": "\n\t\t\t\t\tWe\u00a0are looking for a\u00a0backend software engineer to\u00a0join the team. Here is\u00a0some project we\u00a0are working\u00a0on:\n\n\u2014\u00a0An\u00a0internal solution for managing, monitoring, and forecasting resources availability in\u00a0terms of\u00a0short-term and long-term plans.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 75,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/devbrother/vacancies/142698/",
+    "title": "Middle Fullstack Developer",
+    "company": "DevBrother",
+    "description": "\n\t\t\t\t\tThe customer is\u00a0an\u00a0AI\u00a0FinTech startup-up from Silicon Beach, Los Angeles. The work on\u00a0the project will be\u00a0according to\u00a0the highest standards of\u00a0programming and management. More information will be\u00a0provided during the first introduction call.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 76,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/anvileight/vacancies/72796/",
+    "title": "Python Engineer at\u00a0AnvilEight",
+    "company": "\u00a0AnvilEight",
+    "description": "\n\t\t\t\t\tAbout Us:\n\nAnvilEight is\u00a0Python development outsourcing company that provides custom software solutions and mobile development services to\u00a0both businesses and individuals.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 77,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/quantum/vacancies/128239/",
+    "title": "Full-Stack developer (Python+React)",
+    "company": "\u00a0Quantum",
+    "description": "\n\t\t\t\t\tThe client is\u00a0Nutanix\u00a0\u2014 a\u00a0leading cloud computing software company that sells hyper-converged infrastructure (HCI) appliances and software-defined storage. Nutanix was announced an\u00a0MQ\u00a0Leader in\u00a0the November 2018 Magic Quadrant for Hyperconverged Infrastructure.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 78,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/academy-smart/vacancies/142179/",
+    "title": "Senior Python Backend developer",
+    "company": "\u00a0Academy SMART",
+    "description": "\n\t\t\t\t\tDo\u00a0you love Python? Consider yourself as\u00a0an\u00a0expert for\u00a0it? Your place is\u00a0with\u00a0us!\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 79,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/itransition/vacancies/142032/",
+    "title": "Head of\u00a0Odoo Department",
+    "company": "\u00a0Itransition",
+    "description": "\n\t\t\t\t\tIn-depth knowledge and advanced understanding of\u00a0Odoo ecosystem (6+\u00a0years of\u00a0experience), a\u00a0consultant or\u00a0architect\u2019s certificate would be\u00a0a\u00a0plus\nManagerial experience would be\u00a0a\u00a0plus, but it\u2019s not something we\u00a0require\nOutstanding communication skills\nGreat command of\u00a0English...\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 80,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sloboda/vacancies/127997/",
+    "title": "Senior Python Developer",
+    "company": "\u00a0Sloboda studio",
+    "description": "\n\t\t\t\t\t\u2014\u00a05+\u00a0years proven experience in\u00a0Python;\n\u2014\u00a0Experience with Python frameworks (Django, FastAPI);\n\u2014\u00a0Experience with Postgresql;\n\u2014\u00a0Strong unit test and debugging skills;\n\u2014\u00a0Experience with asynchronous tasks and knowledge of\u00a0when to\u00a0use them\n\u2014\u00a0Upper-Intermediate English level.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 81,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sigma-software/vacancies/141905/",
+    "title": "Web API Principal Engineer\u00a0\u2014 Python/Django",
+    "company": "\u00a0Sigma Software",
+    "description": "\n\t\t\t\t\tWe\u00a0invite you to\u00a0build next-generation Web API platform in\u00a0a\u00a0Series B\u00a0New York based technology startup, Beeswax!\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 82,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sigma-software/vacancies/141877/",
+    "title": "Senior Python Developer (AdTech)",
+    "company": "\u00a0Sigma Software",
+    "description": "\n\t\t\t\t\tWe\u00a0are working with rapidly growing US\u00a0AdTech company Beeswax. Founded by\u00a0three ex-Googlers, it\u00a0has a\u00a0highly technical team and an\u00a0excellent technical culture.\nThe project is\u00a0about providing a\u00a0REST API to\u00a0customers and a\u00a0JavaScript\u00a0UI.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 83,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/infopulse/vacancies/141819/",
+    "title": "Middle Python Developer (ID:9171)",
+    "company": "\u00a0Infopulse",
+    "description": "\n\t\t\t\t\tInfopulse welcomes talented professionals to\u00a0join our long-term project and to\u00a0work full time as\u00a0a\u00a0Python Developer at\u00a0one of\u00a0our offices.\nOur client Quantum Corp. (NYSE:QTM) is\u00a0a\u00a0leading expert in\u00a0data storage, archiving and protection.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 84,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/zone3000/vacancies/141637/",
+    "title": "Middle\u00a0/ Senior Python Developer",
+    "company": "\u00a0ZONE3000",
+    "description": "\n\t\t\t\t\tTechnical Operations Domain Services team develops business logic for core DNS system as\u00a0well as\u00a0DNS data storage, replication mechanisms. It\u00a0includes API for third party services and DNS service infrastructure.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 85,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/a-level-ukraine/vacancies/71825/",
+    "title": "Middle Python\u2014 \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c",
+    "company": "\u00a0A-Level Ukraine",
+    "description": "\n\t\t\t\t\t\u0415\u0441\u043b\u0438 \u0432\u0430\u043c \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e:\n-\u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u0435\u0431\u044f \u043a\u0430\u043a \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044f\n-\u043e\u0442\u0442\u043e\u0447\u0438\u0442\u044c \u0441\u0432\u043e\u0439 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u0438\u0437\u043c \u0438\u00a0\u0441\u0438\u0441\u0442\u0435\u043c\u0430\u0442\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u0432\u043e\u0438 \u0437\u043d\u0430\u043d\u0438\u044f\n-\u0432\u043e\u0441\u043f\u0438\u0442\u0430\u0442\u044c \u043c\u043e\u043b\u043e\u0434\u043e\u0435 \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432 \u0432\u00a0IT \u0442\u0430\u043a, \u043a\u0430\u043a \u0432\u044b\u00a0\u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0435 \u043d\u0443\u0436\u043d\u044b\u043c, \u00ab\u043f\u043e\u0434 \u0441\u0435\u0431\u044f\u00bb\n-\u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0432\u00a0\u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0438\u00a0\u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c \u0438\u00a0\u043c\u0430\u0441\u0442\u0435\u0440-\u043a\u043b\u0430\u0441\u0441\u043e\u0432...\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 86,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/intellias/vacancies/129696/",
+    "title": "Machine Learning Engineer",
+    "company": "\u00a0Intellias",
+    "description": "\n\t\t\t\t\tJoin Intellias ML/AI\u00a0Team, which is\u00a0focused on\u00a0advanced machine learning solutions for different areas: from self-driving cars to\u00a0self-service shops.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 87,
+  "fields": {
+    "url": "https://rabota.ua/company788/vacancy8064712",
+    "title": "Automation QA Engineer (Python) #9025",
+    "company": "Infopulse / \u0418\u043d\u0444\u043e\u043f\u0443\u043b\u044c\u0441",
+    "description": " Infopulse welcomes talented professionals to join our project and to work full time as a Test Automation Engineer at one of our Ukrainian offices: Kiyv,...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 88,
+  "fields": {
+    "url": "https://rabota.ua/company825/vacancy8328210",
+    "title": "Senior Python Developer With AWS (Automotive Domain)",
+    "company": "Sigma Software",
+    "description": " We welcome an experienced, energetic, and enthusiastic Python Developer who is ready to work on the automotive project and do challenging tasks. If you...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 89,
+  "fields": {
+    "url": "https://rabota.ua/company53660/vacancy8197633",
+    "title": "Lead Data Architect / Data Modeler (AWS) (Python)",
+    "company": "NIX",
+    "description": " Product: \u0421loud-based, AI-driven SaaS solution using advanced predictive analytics and proactive device insights to monitor your fleet's performance. The...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 90,
+  "fields": {
+    "url": "https://rabota.ua/company53660/vacancy8085522",
+    "title": "Data Engineer (Python)",
+    "company": "NIX",
+    "description": " \u041c\u044b \u0440\u0430\u0441\u0448\u0438\u0440\u044f\u0435\u043c \u043d\u0430\u0448\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u0438 \u0432 \u0441\u0432\u044f\u0437\u0438 \u0441 \u044d\u0442\u0438\u043c \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u043c \u043d\u0430\u0447\u0438\u043d\u0430\u044e\u0449\u0435\u0433\u043e \u0438\u043b\u0438 \u0438\u043c\u0435\u044e\u0449\u0435\u0433\u043e \u043e\u043f\u044b\u0442 Data Engineer \u0434\u043b\u044f \u0443\u0447\u0430\u0441\u0442\u0438\u044f \u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u0445 \u0432 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 Health care, insurance,...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 91,
+  "fields": {
+    "url": "https://rabota.ua/company6784762/vacancy8174434",
+    "title": "Junior developer (Python, PL/I)",
+    "company": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u044b\u0435 \u0421\u0438\u0441\u0442\u0435\u043c\u044b - \u0425\u0430\u0440\u044c\u043a\u043e\u0432",
+    "description": " \u041e\u0431\u0449\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f:\u041c\u044b \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b \u0434\u043b\u044f \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u00abRocket Software, Inc\u00bb, \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e\u0433\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u0430 \u041f\u041e, \u043a\u0440\u0443\u043f\u043d\u043e\u0433\u043e \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0430 IBM...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 92,
+  "fields": {
+    "url": "https://rabota.ua/company3799787/vacancy8319151",
+    "title": "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a",
+    "company": "MyCredit",
+    "description": " MyCredit - \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e \u0441 \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u0439 \u0434\u0443\u0448\u043e\u0439 \u0438 \u043f\u0440\u0438\u044f\u0442\u043d\u043e\u0439 \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u043e\u0439. \u041c\u044b \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u043b\u0438\u0434\u0435\u0440 \u0440\u044b\u043d\u043a\u0430 \u043c\u0438\u043a\u0440\u043e\u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f \u0441 4-\u043b\u0435\u0442\u043d\u0438\u043c \u0441\u0442\u0430\u0436\u0435\u043c! \u0412\u0445\u043e\u0434\u0438\u043c \u0432 \u0422\u043e\u043f-3...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 93,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy8317079",
+    "title": "Senior Python Developer, Global Music Company",
+    "company": "DataArt",
+    "description": " Our client is a global music and entertainment industry conglomerate headquartered in the US with offices in over 40 countries.Currently, the company plans...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 94,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy8317099",
+    "title": "Python Developer, Media Conglomerate",
+    "company": "DataArt",
+    "description": " DataArt is involved in the software transformation of key business areas of a US -based global music conglomerate.The solutions we\u2019re currently developing...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 95,
+  "fields": {
+    "url": "https://rabota.ua/company1100697/vacancy8324139",
+    "title": "Python Developer",
+    "company": "Yael Acceptic",
+    "description": " We invite a self-motivated Python Developer who is open to new opportunities and solutions to join a growing project that helps farming owners in their...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 96,
+  "fields": {
+    "url": "https://rabota.ua/company10394727/vacancy8313262",
+    "title": "Python Developer",
+    "company": "Ohires ",
+    "description": " \u041c\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Ohires, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u0434\u0431\u0438\u0440\u0430\u0435\u0442 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442 \u0440\u0430\u0431\u043e\u0442\u043e\u0439 \u0443\u0434\u0430\u043b\u0451\u043d\u043d\u044b\u0445 \u043a\u043e\u043c\u0430\u043d\u0434. \u041d\u0430\u0448 \u043a\u043b\u0438\u0435\u043d\u0442 \u0430\u0443\u0442\u0441\u043e\u0440\u0441\u0438\u043d\u0433\u043e\u0432\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0438\u0449\u0435\u0442 \u043d\u043e\u0432\u043e\u0433\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430 \u043d\u0430 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 97,
+  "fields": {
+    "url": "https://rabota.ua/company6714815/vacancy8193239",
+    "title": "Back end \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442",
+    "company": "Puzzle",
+    "description": " \u0412 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 web \u0441\u0442\u0443\u0434\u0438\u0438 Puzzle \u0438\u0449\u0435\u043c \u043c\u0430\u0442\u0435\u0440\u043e\u0433\u043e backend \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430. \u0412\u044b\u0437\u043e\u0432\u044b: \u0412\u044b\u0441\u043e\u043a\u043e\u043d\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u044b \u0441 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e\u043c \u0440\u043e\u043b\u0435\u0439, \u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0435\u0439, \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 \u0438 \u043d\u043e\u0443\u0445\u0430\u0443. \u0427\u0435\u0433\u043e...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 98,
+  "fields": {
+    "url": "https://rabota.ua/company4999989/vacancy7649410",
+    "title": "Strong Junior Python Developer (Django framework)",
+    "company": "dZENcode LLC ",
+    "description": " \u041c\u044b \u0438\u0449\u0435\u043c Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430\u0434 \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438 \u0440\u0430\u0437\u043d\u043e\u0439 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438. \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438:\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0435 \u0437\u043d\u0430\u043d\u0438\u0435 Python 3 (\u043e\u043f\u044b\u0442 \u043c\u0438\u043d\u0438\u043c\u0443\u043c1 \u0433\u043e\u0434);\u0437\u043d\u0430\u043d\u0438\u0435 \u0444\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a\u0430...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 99,
+  "fields": {
+    "url": "https://rabota.ua/company3205427/vacancy8228390",
+    "title": "Python/Django Developer",
+    "company": "\u0421\u0422\u0415\u041c, \u041e\u041e\u041e",
+    "description": " \u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:1. \u041e\u041e\u041f \u0438 \u0443\u043c\u0435\u043d\u0438\u0435 \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0442\u044c 2. Python \u0438 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u044b\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 3. Django 4. HTML, CSS, JS \u2014 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438 \u0434\u043b\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f frontEnd \u0437\u0430\u0434\u0430\u043d\u0438\u0439...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 100,
+  "fields": {
+    "url": "https://rabota.ua/company3701443/vacancy8225666",
+    "title": "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445",
+    "company": "\u0421\u0438\u0433\u043c\u0430 \u041b\u0422\u0414, \u041e\u041e\u041e, \u041d\u041f\u041a\u0424",
+    "description": " \u041d\u0430\u0448\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0433\u0435\u043e\u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c (\u0413\u0418\u0421) \u0434\u043b\u044f \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0445 \u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u043e\u0432. \u041d\u0430\u043c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 101,
+  "fields": {
+    "url": "https://rabota.ua/company355140/vacancy7773942",
+    "title": "Automation QA engineer (Python)",
+    "company": "Dish Ukraine",
+    "description": " Dish Ukraine is a wholly owned subsidiary of Dish Technologies (NASDAQ: Dish). Our mission is to develop software for a new generation of video streaming...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 102,
+  "fields": {
+    "url": "https://rabota.ua/company7838357/vacancy8054773",
+    "title": "QA Automation trainee/junior (Python OR Java)",
+    "company": "Quod Financial Ukraine",
+    "description": " \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438\u0437\u043d\u0430\u043d\u0438\u044f \u0442\u0435\u043e\u0440\u0438\u0438 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f;\u0437\u043d\u0430\u043d\u0438\u044f \u044f\u0437\u044b\u043a\u0430 java \u0438\u043b\u0438 python (\u0442\u0435\u0441\u0442\u044b \u043f\u0438\u0448\u0443\u0442\u0441\u044f \u043d\u0430 python). \u0416\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0443\u0447\u0438\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0438\u043d\u0438\u043c\u0443\u043c 6 \u043c\u0435\u0441\u044f\u0446\u0435\u0432....\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 103,
+  "fields": {
+    "url": "https://rabota.ua/company2850548/vacancy8252726",
+    "title": "Senior AQA Engineer (JavaScript / Cypress / Python)",
+    "company": "TestFort",
+    "description": " We are looking for an experienced Senior Automation QA who can update existing autotests and develop new ones, maintaining a stable and well performing...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 104,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4156678/",
+    "title": "\nTest Engineer (AQA, Python, IRC105026)\n",
+    "company": "GlobalLogic Ukraine",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            GlobalLogic Ukraine is\u00a0inviting an AQA\u00a0\u2014 Test Engineer, python to\u00a0join its Kharkiv office. In\u00a0the era\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 105,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4161133/",
+    "title": "\nSenior Python Developer With AWS (Automotive Domain) \u0432 \u041a\u0438\u0435\u0432\n",
+    "company": "Sigma Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            We\u00a0welcome an\u00a0experienced, energetic, and enthusiastic Python Developer who is\u00a0ready to\u00a0work on\u00a0the automotive\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 106,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4038728/",
+    "title": "\nQA Automation Engineer trainee/junior (Python OR Java)\n",
+    "company": "Quod Financial",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430.\n                            \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438   \u0437\u043d\u0430\u043d\u0438\u044f \u0442\u0435\u043e\u0440\u0438\u0438 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f;   \u0437\u043d\u0430\u043d\u0438\u044f \u044f\u0437\u044b\u043a\u0430 java \u0438\u043b\u0438 python (\u0442\u0435\u0441\u0442\u044b \u043f\u0438\u0448\u0443\u0442\u0441\u044f \u043d\u0430\u00a0python)\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 107,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4157076/",
+    "title": "\nLead Data Engineer (Python, IRC104739)\n",
+    "company": "GlobalLogic Ukraine",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            GlobalLogic Ukraine is\u00a0inviting a Lead Data Engineer (Python) to\u00a0join its Kharkiv office. The project\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 108,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4081097/",
+    "title": "\nPython, Django Developer\n",
+    "company": "\u0421\u0442\u0435\u043c \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u041e\u041e\u041e",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:  1. \u041e\u041e\u041f \u0438\u00a0\u0443\u043c\u0435\u043d\u0438\u0435 \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0442\u044c  2. Python \u0438\u00a0\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u044b\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438  3. Django  4. HTML, CSS,\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 109,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4152068/",
+    "title": "\nPython Developer (Media Conglomerate)\n",
+    "company": "DataArt",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            DataArt is\u00a0involved in\u00a0the software transformation of\u00a0key business areas of a\u00a0US -based global music\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 110,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4152046/",
+    "title": "\nSenior Python Developer (Global Music Company)\n",
+    "company": "DataArt",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            Our client is\u00a0a\u00a0global music and entertainment industry conglomerate headquartered in\u00a0the\u00a0US with offices\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 111,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4088866/",
+    "title": "\nStrong Junior Python Developer (Django)\n",
+    "company": "Dzencode LLC",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f dZENcode \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u0442 Python/Django \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u043e\u0432 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430\u0434 \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438 \u0440\u0430\u0437\u043d\u043e\u0439 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0432\u00a0\u043e\u0441\u043d\u043e\u0432\u0435\u2026\u2060\n",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 112,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185831-senior-computer-vision-engineer",
+    "title": "Senior Computer Vision Engineer",
+    "company": "at\u00a0CHI Software",
+    "description": "CHI Software is looking for Senior Computer Vision Engineer",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 113,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185781-senior-data-engineer-python-",
+    "title": "Senior Data Engineer (Python)",
+    "company": "at\u00a0GlobalLogic",
+    "description": "The project has the aim to develop AI Infrastructure (AII) is built atop Amazon Web Services resources with a particular focus on Redshift, SNS/SQS, CloudWatch, CloudFormation, Apache Airflow, as well as processing applications running on EC2 and other compute resources in the cloud.",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 114,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/playrix/vacancies/141463/",
+    "title": "Data Engineer",
+    "company": "\u00a0Playrix",
+    "description": "\n\t\t\t\t\t\u0415\u0441\u043b\u0438 \u0432\u044b\u00a0\u0445\u043e\u0442\u0438\u0442\u0435 \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u044c\u0441\u044f \u043a\u00a0\u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u0435, \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0432\u00a0\u0432\u044b\u0441\u043e\u043a\u043e\u043d\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u043e\u0439 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435, \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0441\u00a0AWS \u0438\u00a0Python3, \u0442\u043e\u0433\u0434\u0430 \u043c\u044b\u00a0\u0436\u0434\u0435\u043c \u0432\u0430\u0448\u0435 \u0440\u0435\u0437\u044e\u043c\u0435.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 115,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/zone3000/vacancies/143865/",
+    "title": "Middle Software Engineer",
+    "company": "\u00a0ZONE3000",
+    "description": "\n\t\t\t\t\tTechnical Operations Hosting team is\u00a0responsible for supporting and developing Shared Hosting and VPS Hosting Infrastructures in\u00a0all their variety, turning a\u00a0bunch of\u00a0hardware into a\u00a0complex interconnected system. All of\u00a0that managed by\u00a0software tools we\u00a0strive to\u00a0enhance.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2020-12-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 116,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/fluent-trade-technologies/vacancies/121599/",
+    "title": "Integration Engineer Tech Support tier-2 (Middle C++/Linux/Python/English)",
+    "company": "\u00a0Fluent Trade Technologies",
+    "description": "\n\t\t\t\t\tFluent Technologies is\u00a0a\u00a0leading system integrator &\u00a0hosting provider specializing in\u00a0the delivery of\u00a0ultra low-latency strategy and market data solutions for the Financial Industry.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 117,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/135391/",
+    "title": "Python FullStack Developer for Meya",
+    "company": "\u00a0Daxx",
+    "description": "\n\t\t\t\t\tAbout Meya\nMeya is\u00a0a\u00a0customer experience automation platform that helps organizations better serve their customers via conversational interfaces on\u00a0websites, mobile apps and more.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 118,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/137211/",
+    "title": "Middle Python Full-Stack Developer for InfluencerDB",
+    "company": "\u00a0Daxx",
+    "description": "\n\t\t\t\t\tInfluencerDB is\u00a0a\u00a0SaaS platform, that develops software that helps to\u00a0select the-best-in-class influencers on\u00a0the market and acts as\u00a0a\u00a0facilitator for monitoring marketing campaigns as\u00a0well as\u00a0a\u00a0brand channel.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 119,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/datarobot/vacancies/134978/",
+    "title": "Cloud Native Engineer (Python, Kubernetes)",
+    "company": "\u00a0DataRobot",
+    "description": "\n\t\t\t\t\tDataRobot is\u00a0looking for Cloud Native Engineers with Kubernetes and Python experience to\u00a0help\u00a0us architect, build and maintain the next generation platform for training, analyzing, and productionalizing machine learning pipelines.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 120,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/136428/",
+    "title": "Senior Python Developer",
+    "company": "\u00a0KitRUM",
+    "description": "\n\t\t\t\t\tClient is\u00a0a\u00a0mix of\u00a0around 40\u00a0researchers, designers and technologists based in\u00a0the United Kingdom.\nClient\u2019s team is\u00a0committed to\u00a0designing, building and evolving the world\u2019s best video-based consumer products.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 121,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/agileengine/vacancies/129314/",
+    "title": "Senior/Lead Python Engineer",
+    "company": "\u00a0AgileEngine",
+    "description": "\n\t\t\t\t\tWe\u00a0are looking for a\u00a0highly skilled engineer interested in\u00a0contributing to\u00a0both server and client sides to\u00a0join our team, deliver high-quality solutions, and become a\u00a0driver and a\u00a0key person to\u00a0develop within the project.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 122,
+  "fields": {
+    "url": "https://rabota.ua/company2396332/vacancy7515626",
+    "title": "\u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c \u043a\u0443\u0440\u0441\u0430 ",
+    "company": "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u044f - \u0428\u0410\u0413, \u041e\u041e\u041e ",
+    "description": " \u0415\u0441\u043b\u0438 \u0432\u044b \u0443\u0441\u0442\u0430\u043b\u0438 \u043e\u0442 \u0440\u0443\u0442\u0438\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u044f \u043a\u043e\u0434\u0430, \u043d\u0430\u043a\u043e\u043f\u0438\u043b\u0438 \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u0437\u043d\u0430\u043d\u0438\u0439 \u0438 \u0433\u043e\u0442\u043e\u0432\u044b \u0438\u043c\u0438 \u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f, \u043c\u044b \u0431\u0443\u0434\u0435\u043c \u0440\u0430\u0434\u044b \u0432\u0438\u0434\u0435\u0442\u044c \u0432\u0430\u0441 \u043a\u043e\u043c\u0430\u043d\u0434\u0435 \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0439...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 123,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/158719-machine-learning-engineer",
+    "title": "Machine Learning Engineer",
+    "company": "at\u00a0Intellias",
+    "description": "Join Intellias ML/AI Team, which is focused on advanced machine learning solutions for different areas: from self-driving cars to self-service shops.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 124,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/186255-middle-python-developer",
+    "title": "Middle Python Developer",
+    "company": "at\u00a0Cropper",
+    "description": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:\r\n-1.5-2 \u0433\u043e\u0434\u0430 \u043e\u043f\u044b\u0442\u0430;\r\n-python3 + core lib;\r\n-aiohttp;\r\n-PostgreSQL, RabbitMQ, redis;\r\n-\u0437\u043d\u0430\u043d\u0438\u0435 SQL;\r\n-swagger;\r\n-CI/CD.\r\n\r\n\u0411\u0443\u0434\u0435\u0442 \u043f\u043b\u044e\u0441\u043e\u043c:\r\n-MongoDB; \r\n-celery;\r\n-docker;\r\n-flask.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 125,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/186249-team-leader-back-end-f",
+    "title": "Team Leader Back End F",
+    "company": "at\u00a0O2IT Recruitment",
+    "description": "We are looking for a brilliant hands-on Software Development Team Leader to join our top-notch technology team. As a Team Leader, you will have the autonomy and the authority to lead a Full Stack team that builds amazing products in an agile development lifecycle.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 126,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/186227-senior-back-end-f",
+    "title": "Senior Back End F",
+    "company": "at\u00a0O2IT Recruitment",
+    "description": "Are you ready to work on massive web projects and features that are being used by millions across the world? If yes, then you've come to the right place.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 127,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/186210-senior-back-end-engineer-python-",
+    "title": "Senior Back End Engineer(Python)",
+    "company": "at\u00a0RecruitGarden",
+    "description": "\u041f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0435\u0441\u044c VPN? \u0410 \u0445\u043e\u0442\u0438\u0442\u0435 \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u0443\u044e \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u0443\u044e \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u0443 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430? \u0422\u043e\u0433\u0434\u0430 \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0442\u0435\u0441\u044c \u043a \u041a\u0430\u043b\u0438\u0444\u043e\u0440\u043d\u0438\u0439\u0441\u043a\u043e\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438, \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0449\u0435\u0439 \u043d\u0430\u0434 \u044d\u0442\u0438\u043c. \u041c\u044b \u043a\u0430\u043a \u0440\u0430\u0437 \u0438\u0449\u0435\u043c Senior Python developer \u0432 \u0438\u0445 \u041a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u0442\u0434\u0435\u043b. \u0423\u0441\u043b\u043e\u0432\u0438\u044f - \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u044b\u0435. \u041e\u0431\u0441\u0443\u0434\u0438\u043c?",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 128,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/176795-sr-rpa-developer",
+    "title": "Sr RPA developer",
+    "company": "at\u00a0TEAM International",
+    "description": "The Robotic Process Automation (RPA) Developer is responsible for the design, development, testing, delivery, and support of robust, scalable automation workflows that improve business processes and create efficiencies to meet business objectives.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 129,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/164897-power-bi-developer",
+    "title": "Power BI Developer",
+    "company": "at\u00a0Emergn",
+    "description": "We are Emergn.  We Improve the way people and companies work. Forever.\r\n \r\nWe are a different type of services company. We are passionate about helping companies build better products.\r\n\r\nCurrently seeking a Power BI Developer  to join the team on an exciting and challenging client engagement.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 130,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/155880-middle-python-developer",
+    "title": "Middle Python Developer",
+    "company": "at\u00a0Shark Software",
+    "description": "We are the team of developers focused on delivering the high-quality solution to enhance business. Our company provides outsource and outstaff services to reliable constant customers and startups. We prefer to use unique solutions for the best expectations of product\u2019s implementation.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 131,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/185907-software-engineer-iot-development-",
+    "title": "Software Engineer (IoT Development)",
+    "company": "at\u00a0TechStack",
+    "description": "Our company is looking for a Software Engineer (IoT) to join a global industrial project. You will work with one of the largest B2B data sets in the world using the latest cutting edge technologies.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 132,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/177131-lead-senior-python-engineer",
+    "title": "Lead/Senior Python Engineer",
+    "company": "at\u00a0AgileEngine",
+    "description": "We are looking for a highly skilled engineer interested in contributing to both server and client sides to join our team, deliver high-quality solutions, and become a driver and a key person to develop within the project.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 133,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187719-middle-python-backend-developer",
+    "title": "Middle Python Backend developer",
+    "company": "at\u00a0AMTOSS",
+    "description": "For our customer AMTOSS is looking for Python dev! You`ll get:\r\nvery positive and supportive customer (CTO of the product in Germany),\r\nopportunity to provide and prove own ideas, up to architectural level,\r\nparticipation in highload optimizations, stable long-term project.\r\nAll details below:",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 134,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/162177-game-analyst",
+    "title": "Game Analyst",
+    "company": "at\u00a0Plarium",
+    "description": "\u0421 Product Owners \u0432\u044b \u0431\u0443\u0434\u0435\u0442\u0435 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0433\u0438\u043f\u043e\u0442\u0435\u0437\u044b \u0438 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0438\u0445 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438. \u0412\u0430\u043c \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u043e\u0438\u0442 \u0438\u0441\u043a\u0430\u0442\u044c \u0438\u043d\u0441\u0430\u0439\u0442\u044b, \u0441\u043e\u0431\u0438\u0440\u0430\u0442\u044c, \u0441\u0435\u0433\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0438 \u0432\u0438\u0437\u0443\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0434\u0430\u043d\u043d\u044b\u0435 \u0434\u043b\u044f \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 135,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187617-senior-full-stack-developer-python-",
+    "title": "Senior Full-Stack Developer (Python)",
+    "company": "at\u00a0WorkNest Technologies",
+    "description": "For our Israeli customer we are looking for a self-motivated, creative, skilled  Senior Full-Stack Developer to join the development team in Kyiv or Kharkiv office. Remote basis during quarantine time.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 136,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187616-senior-full-stack-developer-python-",
+    "title": "Senior Full-Stack Developer (Python)",
+    "company": "at\u00a0WorkNest Technologies",
+    "description": "For our Israeli customer we are looking for a self-motivated, creative, skilled  Senior Full-Stack Developer to join the development team in Kyiv or Kharkiv office. Remote basis during quarantine time.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 137,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187615-senior-full-stack-developer-python-",
+    "title": "Senior Full-Stack Developer (Python)",
+    "company": "at\u00a0WorkNest Technologies",
+    "description": "For our Israeli customer we are looking for a self-motivated, creative, skilled  Senior Full-Stack Developer to join the development team in Kyiv or Kharkiv office. Remote basis during quarantine time.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 138,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187590-data-scientist",
+    "title": "Data Scientist",
+    "company": "at\u00a0Tech-stack",
+    "description": "Our company is looking for a Data Scientist to join a global industrial project. You will work with one of the largest B2B data sets in the world using the latest cutting edge technologies.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 139,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187529-middle-sre-devops-engineer",
+    "title": "Middle SRE/DevOps engineer",
+    "company": "at\u00a0Intellias",
+    "description": "Our client is the fastest-growing global tobacco manufacturing company. An international corporation with over hundred years of history, internationally recognized brands and Reduced-Risk Products. Intellias mission is to support their strategy and efforts in Digital and eCommerce space.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 140,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/160641-python-developer",
+    "title": "Python developer",
+    "company": "at\u00a0Powercode",
+    "description": "Powercode - \u043b\u0438\u0434\u0438\u0440\u0443\u044e\u0449\u0430\u044f IT-\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0443\u0441\u043b\u0443\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0438 \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u041e\u0444\u0438\u0441\u044b \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u043d\u0430\u0445\u043e\u0434\u044f\u0442\u0441\u044f \u0432 \u0423\u043a\u0440\u0430\u0438\u043d\u0435, \u0421\u0428\u0410, \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438, \u0438 \u0410\u043d\u0433\u043b\u0438\u0438.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 141,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187510-strong-junior-python-razrabotchik",
+    "title": "Strong Junior Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "at\u00a0dZENcode",
+    "description": "\u041c\u044b \u0438\u0449\u0435\u043c Python/Django \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430\u0434 \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438 \u0440\u0430\u0437\u043d\u043e\u0439 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438.",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 142,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/epam-systems/vacancies/141541/?from=list_hot",
+    "title": "Middle/Senior Software Test Automation Engineer (Python) [Kharkiv]",
+    "company": "\u00a0EPAM",
+    "description": "\n\t\t\t\t\tStriving for excellence is\u00a0in\u00a0our DNA. Since 1993, we\u00a0have been helping the world\u2019s leading companies imagine, design, engineer, and deliver software and digital experiences that change the world. We\u00a0are more than just specialists, we\u00a0are experts.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 143,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/a-mtoss/vacancies/144370/",
+    "title": "Middle Python Backend developer",
+    "company": "\u00a0AMTOSS",
+    "description": "\n\t\t\t\t\tLeading European multiposting service for job posts. There are more than a\u00a0hundred job boards in\u00a0the\u00a0EU similar to\u00a0our Work, Djinni, etc. Big companies (e.g.\u00a0of\u00a0the size of\u00a0BMW) waste much time to\u00a0post their vacancies on\u00a0all of\u00a0them.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 144,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/atom-cream/vacancies/144369/",
+    "title": "Middle Python Backend developer",
+    "company": "\u00a0Atom Cream",
+    "description": "\n\t\t\t\t\tLeading European multiposting service for job posts. There are more than a\u00a0hundred job boards in\u00a0the\u00a0EU similar to\u00a0our Work, Djinni, etc. Big companies (e.g.\u00a0of\u00a0the size of\u00a0BMW) waste much time to\u00a0post their vacancies on\u00a0all of\u00a0them.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 145,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/powercodelab/vacancies/125868/",
+    "title": "Python developer",
+    "company": "\u00a0Powercode",
+    "description": "\n\t\t\t\t\tPowercode\u00a0\u2014 \u044d\u0442\u043e\u00a0IT \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0443\u0436\u0435 \u0437\u0430\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043b\u0430 \u0441\u0435\u0431\u044f \u043a\u0430\u043a \u043d\u0430\u0434\u0435\u0436\u043d\u044b\u0439 \u043f\u0430\u0440\u0442\u043d\u0451\u0440 \u0438\u00a0\u0440\u0430\u0431\u043e\u0442\u043e\u0434\u0430\u0442\u0435\u043b\u044c.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 146,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/nix-solutions-ltd/vacancies/130773/",
+    "title": "Data Engineer (Python)",
+    "company": "\u00a0NIX",
+    "description": "\n\t\t\t\t\t\u0422\u042b\u00a0\u041f\u041e\u041b\u0423\u0427\u0418\u0428\u042c \u0412\u041e\u0417\u041c\u041e\u0416\u041d\u041e\u0421\u0422\u042c:\n\n\u2022\t\u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0441\u0442\u0438 \u043a\u043e\u043b\u043e\u0441\u0441\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043f\u044b\u0442 \u043f\u043e\u00a0\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435, \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0438\u00a0\u0430\u0433\u0440\u0435\u0433\u0430\u0446\u0438\u0438 \u0431\u043e\u043b\u044c\u0448\u0438\u0445 \u0434\u0430\u043d\u043d\u044b\u0445;\n\u2022\t\u0440\u0435\u0448\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u0438\u00a0\u043d\u0435\u0442\u0440\u0438\u0432\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0437\u0430\u0434\u0430\u0447\u0438, \u043d\u0435\u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u0432\u043b\u0438\u044f\u044e\u0449\u0438\u0435 \u043d\u0430\u00a0\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430;\n\u2022\t\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0441\u00a0\u043f\u0435\u0440\u0435\u0434\u043e\u0432\u044b\u043c\u0438 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f\u043c\u0438 (\u0442\u0430\u043a\u0438\u043c\u0438 \u043a\u0430\u043a PySpark, Kubernetes, \u043e\u0431\u043b\u0430\u0447\u043d\u044b\u043c\u0438...\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 147,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/nix-solutions-ltd/vacancies/137766/",
+    "title": "Lead Data Architect\u00a0/ Data Modeler (AWS) (Python)",
+    "company": "\u00a0NIX",
+    "description": "\n\t\t\t\t\tProduct: \n\u0421loud-based, AI-driven SaaS solution using advanced predictive analytics and proactive device insights to\u00a0monitor your fleet\u2019s performance.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 148,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/nix-solutions-ltd/vacancies/110271/",
+    "title": "Senior/Strong middle Cloud developer",
+    "company": "\u00a0NIX",
+    "description": "\n\t\t\t\t\t\u00b7 Platform which provides the REST API for the end user to\u00a0manage and orchestrate various\u00a0ML models (mostly Spark/PySpark based) focused on\u00a0different aspects of\u00a0healthcare domain (treatment cost estimation, categorisation of\u00a0patients, health risk estimation etc);\n\u00b7...\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 149,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/mwdn/vacancies/130132/",
+    "title": "Senior Back End Engineer",
+    "company": "\u00a0MWDN",
+    "description": "\n\t\t\t\t\tTwingate is\u00a0building a\u00a0modern remote access solution that simplifies and improves the way businesses secure access to\u00a0their on-prem and cloud-based network resources.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 150,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ddi-development/vacancies/126094/",
+    "title": "Python (Djang\u043e) Developer",
+    "company": "\u00a0DDI Development",
+    "description": "\n\t\t\t\t\tWe\u00a0are looking for a\u00a0Middle Python Developer to\u00a0warm welcome to\u00a0the team of\u00a0professional and experienced developers. You will design and implement highly scalable features and services using modern technologies and practices.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 151,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/a-listware/vacancies/141110/",
+    "title": "Senior Backend Developer (Python)",
+    "company": "\u00a0A-listware",
+    "description": "\n\t\t\t\t\tOur Customer is\u00a0an\u00a0international company building a\u00a0platform that helps financial institutions have a\u00a0better picture of\u00a0the credit-scoring by\u00a0using not only the existing financial data but also available social data of\u00a0the recipients.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 152,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/unit-space/vacancies/143995/",
+    "title": "Python developer",
+    "company": "\u00a0Unit Space",
+    "description": "\n\t\t\t\t\tEcosystem for Automation, Bots, and AI\u00a0Agents. \nAI-based Omnichannel, conversational marketing automation, and adaptive chatbot platform. That creates smart automation in\u00a0e-commerce and customer services using NLP, personalization and recommendations.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 153,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/quod-financial-ukraine/vacancies/139875/?from=first-job",
+    "title": "QA\u00a0Automation trainee-junior+ (Python OR\u00a0Java)",
+    "company": "\u00a0Quod Financial Ukraine",
+    "description": "\n\t\t\t\t\tWe\u00a0are an\u00a0innovative automated trading technology provider, with an\u00a0excellent track record: We\u00a0are unique today to\u00a0have dedicated the past 12\u00a0years a\u00a0massive R&D to\u00a0bring automated trading technologies to\u00a0equities, derivatives and FX\u00a0on the same platform.\n\t\t\t\t",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 154,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3782924/",
+    "title": "\nSenior Java developer\n",
+    "company": "Codeminders",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            We\u00a0are looking for Senior Java Engineer Requirements:   BS\u00a0or\u00a0MS in\u00a0Computer Science or\u00a0related field\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 155,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/1555647/",
+    "title": "\nJava developer (junior, middle)\n",
+    "company": "Plexsupply, Inc",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u0412\u0435\u0447\u0435\u0440\u043d\u0438\u0439 \u0433\u0440\u0430\u0444\u0438\u043a \u0441\u00a016:00 \u0434\u043e\u00a001:00.  \u0412\u00a0\u041a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u0444\u0438\u0441 \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f Java Developer \u0441\u00a0\u043e\u043f\u044b\u0442\u043e\u043c\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 156,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/2544251/",
+    "title": "\nJava developer\n",
+    "company": "ProgForce",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            ProgForce is\u00a0active, ambitious and goal oriented company. Currently we\u00a0are looking for Java Developer\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 157,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4091005/",
+    "title": "\nJava Engineer\n",
+    "company": "Star",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            THE COMPANYStar is\u00a0a\u00a0global consultancy that connects strategy, design, engineering and marketing services\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 158,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4091022/",
+    "title": "\nSenior Java Engineer\n",
+    "company": "Star",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            THE COMPANYStar is\u00a0a\u00a0global consultancy that connects strategy, design, engineering and marketing services\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 159,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4158077/",
+    "title": "\nJava Developer\n",
+    "company": "UKRSIBBANK BNP Paribas Group",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            We\u00a0are looking for a Senior Java Developer to\u00a0take part in\u00a0the development of\u00a0our online banking product\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 160,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4090927/",
+    "title": "\nJava developer (Strong Junior/Middle)\n",
+    "company": "Softwarium",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438At\u00a0least 2 years of\u00a0commercial development experience Good knowledge of\u00a0Java Core (we\u00a0use\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 161,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4013882/",
+    "title": "\nStrong Middle Java Developer (Telecom domain)\n",
+    "company": "Sigma Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            Are you excited about Java 8? Do\u00a0you want to\u00a0be a\u00a0part of\u00a0the Sigma Software team? We\u00a0are glad to\u00a0invite\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 162,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4159682/",
+    "title": "\nSenior QA automation specialist (Java)\n",
+    "company": "Datas Technology",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            We\u00a0are looking for a\u00a0smart, dedicated, and self-motivated senior\u00a0QA automation engineer to\u00a0join our fast-growing\u00a0QA\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 163,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4165636/",
+    "title": "\nMiddle Java Developer\n",
+    "company": "\u0421\u0430\u0433\u0435\u043a\u0441, \u0422\u041e\u0412",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            We\u00a0are a\u00a0software development company located in\u00a0Kyiv, Ukraine. Our team is\u00a0working on\u00a0providing existing\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 164,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4051682/",
+    "title": "\nJava Developer (Aviation Domain)\n",
+    "company": "Sigma Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            We\u00a0welcome a\u00a0Java Developer to\u00a0be a\u00a0part of\u00a0our experienced team working with the best airlines in\u00a0the\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 165,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4038296/",
+    "title": "\nJava Developer (Java, Big Data Unit)\n",
+    "company": "Sigma Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            Are you a\u00a0Java professional who is\u00a0thrilled about designing the right architecture for a\u00a0new client and\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 166,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4040879/",
+    "title": "\nSenior Java Developer (Back-end)\n",
+    "company": "\u0410\u043b\u044c\u0444\u0430-\u0411\u0430\u043d\u043a",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u041d\u0430\u0448\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u0443\u043d\u0456\u043a\u0430\u043b\u044c\u043d\u0438\u0439 \u043f\u0440\u043e\u0454\u043a\u0442 \u043d\u0430\u00a0\u0440\u0438\u043d\u043a\u0443 \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0437\u00a0\u0444\u043e\u043a\u0443\u0441\u043e\u043c \u043d\u0430\u00a0\u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u0443 \u043a\u043b\u0456\u0454\u043d\u0442\u0441\u044c\u043a\u0443 \u0434\u0456\u0434\u0436\u0438\u0442\u0430\u043b\u0456\u0437\u0430\u0446\u0456\u044e\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 167,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3553739/",
+    "title": "\nAspose.PSD Java Developer\n",
+    "company": "Aspose Pty Ltd",
+    "description": "\n            \u0423\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            We\u00a0are looking for full-time remote Java software developer to\u00a0join our Aspose.PSD for Java team to\u00a0convert\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 168,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187928-middle-android-developer-for-paykey",
+    "title": "Middle Android Developer for PayKey",
+    "company": "at\u00a0Ciklum",
+    "description": "The company is offering a cross-platform banking button on the smartphone\u2019s keyboard boosts the bank\u2019s brand engagement while making the banking experience quick, contextual, and simple for users.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 169,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187927-senior-full-stack-developer-node-js-react-",
+    "title": "Senior Full-Stack Developer (Node.js+React)",
+    "company": "at\u00a0TechHunt",
+    "description": "\u0421lient\u00a0is the technology workforce development company, which creates and develops an education platform with a focus in IT-sphere.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 170,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187910-android-developer",
+    "title": "Android Developer",
+    "company": "at\u00a0Argument staffing agency",
+    "description": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:\r\nJava - 3 \u0433\u043e\u0434\u0430\r\nKotlin - 3 \u0433\u043e\u0434\u0430",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 171,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187905-middle-android-developer",
+    "title": "Middle Android Developer",
+    "company": "at\u00a0Form.com",
+    "description": "Form.com a global leader in data collection and business process optimization software company is looking for an Android Developer to join our team of professionals.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 172,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187904-android-developer",
+    "title": "Android Developer",
+    "company": "at\u00a0Redwerk",
+    "description": "\u0414\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0432 \u041a\u0438\u0435\u0432\u0441\u043a\u043e\u043c \u043e\u0444\u0438\u0441\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 Redwerk \u0438\u0449\u0435\u0442 \u043d\u043e\u0432\u043e\u0433\u043e \u043a\u043e\u043b\u043b\u0435\u0433\u0443 - Android Developer!",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 173,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187856-middle-full-stack-developer",
+    "title": "Middle Full-Stack Developer",
+    "company": "at\u00a0Ciklum",
+    "description": "On behalf of Cellebrite, Ciklum is looking for Middle Full-Stack Developer to join the Kyiv team on a full-time basis.\r\nIf you are an exceptional full stack developer who always wants to know how things work \u2013 we are waiting for you!",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 174,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/171654-middle-senior-java-developer",
+    "title": "Middle/Senior Java developer",
+    "company": "at\u00a0Digitally Inspired",
+    "description": "We have multiple exciting opportunities for experienced Java Developers to join our growing company office in Odesa, Lviv or Kyiv",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 175,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187830-java-sdet",
+    "title": "Java SDET",
+    "company": "at\u00a0GlobalLogic",
+    "description": "We have a world class Quality Assurance team with passionate, talented, and driven QA engineers and SDETs that influence the direction of our technology that impacts customers globally.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 176,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187773-senior-backend-developer",
+    "title": "Senior Backend Developer",
+    "company": "at\u00a0Evolvice GmbH",
+    "description": "We are searching for a Senior Backend Developer with strong OOP knowledge to work on projects for a famous service company.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 177,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/187770-senior-java-developer",
+    "title": "Senior Java Developer",
+    "company": "at\u00a0INSART Company",
+    "description": "Salsa Labs is a premier SaaS technology company providing online organizing tools to nonprofits. The tools they create allow thousands to organize and create change across the country and across the globe.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 178,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/codeminders/vacancies/16657/?from=list_hot",
+    "title": "Senior Java Developer",
+    "company": "\u00a0Codeminders",
+    "description": "\n\t\t\t\t\tWe\u00a0are looking for a\u00a0Senior Java Developer\n\nBits of\u00a0knowledge required:\n\n\u2022 BS\u00a0or\u00a0MS in\u00a0Computer Science or\u00a0related field\n\u2022 Significant experience in\u00a0Java8 (Core, Networking, RES, RabbitMQ, CouchDB, Spring Framework, Google Protobuf, Google, Guava, javax.servlet, javax.ws.rs,...\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 179,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/weplay-esports/vacancies/137645/?from=list_hot",
+    "title": "Middle Java Developer",
+    "company": "\u00a0WePlay Esports",
+    "description": "\n\t\t\t\t\tAbout\u00a0us: \n\nWePlay Esports  is\u00a0a\u00a0leading esports media holding with key offices in\u00a0the USA, China and Ukraine.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 180,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/137658/?from=list_hot",
+    "title": "Senior Full Stack Developer (Java/React.js)",
+    "company": "\u00a0KitRUM",
+    "description": "\n\t\t\t\t\tClient\u2019s company is\u00a0a\u00a0leading player in\u00a0the rapidly growing market for online gaming via mobile, tablet and computer, with well-known brands and strong positions, primarily in\u00a0casino and sports betting.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 181,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/luxoft/vacancies/142493/?from=list_hot",
+    "title": "Technical Lead Java",
+    "company": "\u00a0Luxoft",
+    "description": "\n\t\t\t\t\tOur client is\u00a0a\u00a0leading global Financial market data provider who runs a\u00a0number of\u00a0change programs to\u00a0deliver high-quality software that connects Financial Markets across the globe in\u00a0a\u00a0real-time, high frequency, and low-latency data management chain.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 182,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/luxoft/vacancies/142492/?from=list_hot",
+    "title": "Senior Java Developer (ge)",
+    "company": "\u00a0Luxoft",
+    "description": "\n\t\t\t\t\tLuxoft team is\u00a0developing a\u00a0family of\u00a0condition-based and predictive health management products that uses various online and offline data sources to\u00a0provide preventive intervention recommendations based on\u00a0grid asset condition, probability of\u00a0failure, criticality and risk assessments.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 183,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/luxoft/vacancies/142488/?from=list_hot",
+    "title": "Senior Java Developer/Team Lead",
+    "company": "\u00a0Luxoft",
+    "description": "\n\t\t\t\t\tOur Client is\u00a0a\u00a0US multinational investment bank and financial services corporation. We\u00a0already have established team that is\u00a0currently expanding and have a\u00a0need in\u00a0additional Java Team lead.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 184,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/luxoft/vacancies/142464/?from=list_hot",
+    "title": "Senior Java Developer (tes)",
+    "company": "\u00a0Luxoft",
+    "description": "\n\t\t\t\t\tOur Client is\u00a0one of\u00a0the largest in\u00a0UK groceries and general merchandise retailer doing modernization of\u00a0their\u00a0HR platform. New platform should support all business challenges of\u00a0modern employer and be\u00a0scalable and extendable.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 185,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/luxoft/vacancies/112438/?from=list_hot",
+    "title": "Senior QA\u00a0Automation Engineer (Java, UI\u00a0automated testing)",
+    "company": "\u00a0Luxoft",
+    "description": "\n\t\t\t\t\tOur team is\u00a0creating a\u00a0complex software solution that is\u00a0expected to\u00a0become a\u00a0breakthrough in\u00a0data sharing. Our client is\u00a0one of\u00a0the most famous brands in\u00a0Silicon Valley, which produces world class data storage products.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 186,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/playtech/vacancies/96016/?from=list_hot",
+    "title": "Middle Java Developer (Bingo)",
+    "company": "\u00a0Playtech",
+    "description": "\n\t\t\t\t\tProduct description:\nThe Bingo platform supports 50+\u00a0bingo sites hosting over 250 unique games/features which run in\u00a01000s of\u00a0different configurations.\nWe\u00a0have customers around the world who play in\u00a0different languages and under different rules /regulations (eg\u00a0UK\u00a0UKGC, Italy).\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 187,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/vocalics-ai/vacancies/131372/?from=list_hot",
+    "title": "Senior Java Developer",
+    "company": "\u00a0Vocalics AI",
+    "description": "\n\t\t\t\t\tVocalics AI\u00a0creates cutting-edge technology that lets synthetic speech sound natural. Our AI\u00a0breakthrough creates dubs and voice-overs in\u00a0foreign languages which faithfully reproduce the emotion, intonation, and speaking style of\u00a0the source media.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 188,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/intellias/vacancies/144381/",
+    "title": "Technical Leader",
+    "company": "\u00a0Intellias",
+    "description": "\n\t\t\t\t\tHelloFresh is\u00a0one of\u00a0the leading meal kit companies. They\u2019re providing 111 million meals to\u00a04.2 million households worldwide in\u00a014\u00a0countries across 3\u00a0continents.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 189,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/intellias/vacancies/144380/",
+    "title": "Strong Middle/Senior Java/Scala Software Engineer",
+    "company": "\u00a0Intellias",
+    "description": "\n\t\t\t\t\tHD\u00a0Live Map Product represents integration of\u00a0HD\u00a0Map and its native layers with additional layers\u00a0of: Live Roads and Humanized Driving where Map consistency is\u00a0assured across map versions.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 190,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/billline/vacancies/140114/",
+    "title": "Java Developer (Middle)",
+    "company": "BillLine",
+    "description": "\n\t\t\t\t\tBILLLINE presents a\u00a0lot of\u00a0services and features including, but not limited\u00a0to: variety of\u00a0payment acceptance methods; quick money withdrawals and transfers; ergonomic personal account.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 191,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sigma-software/vacancies/144347/",
+    "title": "Java Developer (Mobile Wallet)",
+    "company": "\u00a0Sigma Software",
+    "description": "\n\t\t\t\t\tWe\u00a0welcome a\u00a0Java Developer for a\u00a0long-term enterprise project in\u00a0telecom and fintech domains.\n\nOur client is\u00a0one of\u00a0the three biggest telecommunication companies. Direct communication with stakeholders, good atmosphere\u00a0\u2014 this is\u00a0what we\u00a0value in\u00a0work with our Customer.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 192,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/very-good-group/vacancies/136494/",
+    "title": "Senior Backend Engineer (Java, Python)",
+    "company": "\u00a0Very Good Security",
+    "description": "\n\t\t\t\t\tVery Good Security (\u201cVGS\u201d) provides a\u00a0modern and efficient way for businesses to\u00a0both secure and utilize their sensitive data. Founded by\u00a0highly successful repeat entrepreneurs and backed by\u00a0world-class investors like Andreessen Horowitz, VGS is\u00a0building an\u00a0amazing global team.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 193,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/globallogic/vacancies/144312/",
+    "title": "Java and AWS Cloud Solution Architect (IRC101314)",
+    "company": "\u00a0GlobalLogic",
+    "description": "\n\t\t\t\t\tOur client is\u00a0a\u00a0worldwide manufacturer of\u00a0smart beds, which increase the overall quality of\u00a0sleep.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 194,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/tonti-laguna-mobile/vacancies/144292/",
+    "title": "Middle+/Senior Backend Developer (Java)",
+    "company": "Tonti Laguna Mobile",
+    "description": "\n\t\t\t\t\t\u0412\u00a0\u043a\u043e\u043c\u0430\u043d\u0434\u0443 Tonti Laguna Mobile \u0438\u0449\u0435\u043c \u043e\u043f\u044b\u0442\u043d\u043e\u0433\u043e Backend-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430\u0434 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u043f\u043e\u00a0\u0443\u0447\u0435\u0442\u0443 \u043b\u0438\u0447\u043d\u044b\u0445 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 195,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/playtika-ua/vacancies/13994/",
+    "title": "Java Developer (Games infrastructure, microservices)",
+    "company": "\u00a0Playtika",
+    "description": "\n\t\t\t\t\tINFRA is\u00a0a\u00a0department that develops core services that can be\u00a0used in\u00a0any company game.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 196,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/lotusflare/vacancies/144233/",
+    "title": "Middle Java/Scala Engineer",
+    "company": "\u00a0LotusFlare",
+    "description": "\n\t\t\t\t\tLotusFlare is\u00a0a\u00a0product company with engineering offices in\u00a0Silicon Valley, Toronto, Kyiv, Belgrade, and other cities. Our solution is\u00a0adopted by\u00a0leading telecom providers and lifts their product infrastructure into the digital age.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 197,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/dataart/vacancies/144223/",
+    "title": "Middle Java Engineer",
+    "company": "\u00a0DataArt",
+    "description": "\n\t\t\t\t\tDataArt is\u00a0a\u00a0global software engineering firm.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 198,
+  "fields": {
+    "url": "https://rabota.ua/company825/vacancy8066711",
+    "title": "Senior Java Developer",
+    "company": "Sigma Software",
+    "description": " Do you find it interesting to work with non-trivial tasks? Are you really interested in improving hard skills utilizing fresh technologies and following...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 199,
+  "fields": {
+    "url": "https://rabota.ua/company9190486/vacancy8333427",
+    "title": "Senior Back-End Developer",
+    "company": "\u041d\u043e\u0432\u0430 \u041f\u043e\u0448\u0442\u0430 \u0426\u0435\u043d\u0442\u0440",
+    "description": " \u041c\u0438 \u043d\u043e\u0432\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u0430 \u0406\u0422 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f \u041d\u043e\u0432\u0430 \u041f\u043e\u0448\u0442\u0430-\u0426\u0435\u043d\u0442\u0440 \u0449\u043e \u0432\u0445\u043e\u0434\u0438\u0442\u044c \u0432 \u0433\u0440\u0443\u043f\u0443 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u0439 \u041d\u043e\u0432\u0430 \u043f\u043e\u0448\u0442\u0430. \u0423 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0456\u0437 \u0440\u043e\u0437\u0448\u0438\u0440\u0435\u043d\u043d\u044f\u043c \u0448\u0442\u0430\u0442\u0443 \u043e\u0433\u043e\u043b\u043e\u0448\u0443\u0454\u043c\u043e \u043a\u043e\u043d\u043a\u0443\u0440\u0441 \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 Senior...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 200,
+  "fields": {
+    "url": "https://rabota.ua/company911/vacancy8334731",
+    "title": "KDB Expert",
+    "company": "Luxoft",
+    "description": " Project DescriptionOur Client is a US multinational investment bank and financial services corporation. We're currently forming a new team to support the...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 201,
+  "fields": {
+    "url": "https://rabota.ua/company39812/vacancy8316035",
+    "title": "Java full-stack developer",
+    "company": "Micro Focus",
+    "description": " MicroFocus is the global IT company. MicroFocus Kyiv R&D site was opened in 2007, after 13 years of steady growth and innovations Kyiv engineering...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 202,
+  "fields": {
+    "url": "https://rabota.ua/company195772/vacancy8305903",
+    "title": "Java developer (Strong Junior/Middle)",
+    "company": "Softwarium",
+    "description": " Required skillsAt least 2 years of commercial development experienceGood knowledge of Java Core (we use 8 and 8.11)Basic knowledge in RESTful APIs,Familiarity...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 203,
+  "fields": {
+    "url": "https://rabota.ua/company750796/vacancy8329324",
+    "title": "Middle Java Developer",
+    "company": "\u041c\u0415\u0413\u0410\u0411\u0410\u041d\u041a, \u041a\u0424 \u041f\u0410\u041e",
+    "description": " \u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u044b \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 Megabank, \u0438\u0449\u0435\u043c \u043a\u043e\u043b\u043b\u0435\u0433\u0443 - Middle Java Developer, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0431\u0443\u0434\u0435\u0442 \u0447\u0430\u0441\u0442\u044c\u044e \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u043d\u0435\u043e\u0431\u0430\u043d\u043a\u0430 \u00abtodobank\u00bb.\u0426\u0435\u043b\u044c \u043f\u0440\u043e\u0435\u043a\u0442\u0430 -...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 204,
+  "fields": {
+    "url": "https://rabota.ua/company10421562/vacancy8334573",
+    "title": "Android Developer",
+    "company": "Curogram",
+    "description": " The high growth US-based healthcare software company Curogram is looking to hire a talented Android developer responsible for the development and maintenance...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 205,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy8334297",
+    "title": "(Talent Program) Middle Java Backend Developer (IRC106887)",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine is inviting a Middle Java Backend Developer to join its Kyiv office.As a full-lifecycle product development services company, we offer...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 206,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy8334288",
+    "title": "Senior Developer (Java) (IRC108027)",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine is inviting a Senior Developer (Java) to join its Kyiv office.A customer is a healthcare IT security company. It provides healthcare...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 207,
+  "fields": {
+    "url": "https://rabota.ua/company720/vacancy8123184",
+    "title": "Middle / Senior Java Developer (Kyiv, Kharkiv, Ukraine and remote)",
+    "company": "Miratech / \u041c\u0438\u0440\u0430\u0442\u0435\u0445",
+    "description": " Job DescriptionOur client has two cornerstones: identity services under the brand and certificate services. Identity services is the digital identity of...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 208,
+  "fields": {
+    "url": "https://rabota.ua/company3132372/vacancy8226472",
+    "title": "Java Developer",
+    "company": "ProgForce",
+    "description": " ProgForce is active, ambitious and goal oriented company.Currently we are looking for Java Developer to join our team and get great opportunities to grow...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 209,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy8328885",
+    "title": "Android Developer, Communications Services",
+    "company": "DataArt",
+    "description": " Our client is a conglomerate of telecommunication companies. Its experts create tools for testing the performance of new solutions. These tools are used...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 210,
+  "fields": {
+    "url": "https://rabota.ua/company4751665/vacancy8180759",
+    "title": "Java developer",
+    "company": "TAMGA",
+    "description": " \u0422\u0430mga is a friendly and dynamic team with many years of experience in leading European banks and financial institutions.Our team is working on providing...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 211,
+  "fields": {
+    "url": "https://rabota.ua/company1118684/vacancy8041700",
+    "title": "Middle+ Java Developer",
+    "company": "DATAS TECHNOLOGY",
+    "description": " \u041d\u0430 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043f\u0440\u043e\u0435\u043a\u0442 \u0438\u0449\u0435\u043c Middle+ Java Developer\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e:Java 11Spring Framework (Boot, Security, Data, AOP, REST Docs)HibernatePostgreSQLElasticsearchGitMaven\u0416\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u043e:Activiti...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 212,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy8334062",
+    "title": "Middle Developer (Java) (IRC108028)",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine is inviting a Middle Developer (Java) to join its Kyiv office.A customer is a healthcare IT security company. It provides healthcare...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 213,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy8334060",
+    "title": "Senior Java Developer (IRC108189)",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine is inviting a Senior Java Developer to join its Kyiv office.A customer is a healthcare IT security company. It provides healthcare...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 214,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy8334058",
+    "title": "Middle Java Developer (IRC108190)",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine is inviting a Middle Java Developer to join its Kyiv office.A customer is a healthcare IT security company. It provides healthcare...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 215,
+  "fields": {
+    "url": "https://rabota.ua/company369033/vacancy8334043",
+    "title": "Senior Java Engineer",
+    "company": "Svitla Systems Inc.",
+    "description": " Svitla Systems Inc. is looking for Senior Back-end Java Engineer for a full-time position (40 hours per week) in Ukraine. Our client a leading global provider...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 216,
+  "fields": {
+    "url": "https://rabota.ua/company5323950/vacancy7679726",
+    "title": "Middle Android Developer",
+    "company": "LabsTech",
+    "description": " Middle Android developer Required skillsAt least 3 years experience in Android developmentStrong Java and Kotlin knowledgeAndroid UX/UI guidelines knowledge...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 217,
+  "fields": {
+    "url": "https://rabota.ua/company5323950/vacancy7274118",
+    "title": "DevOps Engineer",
+    "company": "LabsTech",
+    "description": " About position:We are looking for an experienced DevOps Engineer to develop and maintain the company's product infrastructure. This role intends to design...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 218,
+  "fields": {
+    "url": "https://rabota.ua/company1974024/vacancy8328694",
+    "title": "Middle QA Automation (C#) Engineer for SB Team",
+    "company": "Parimatch Tech",
+    "description": " DescriptionWe are an innovative provider of future-defining tech solutions in the Gaming & Entertainment industry. We are committed to innovation to...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 219,
+  "fields": {
+    "url": "https://rabota.ua/company1037/vacancy8026247",
+    "title": "Senior APS Developer",
+    "company": "\u0420\u0430\u0439\u0444\u0444\u0430\u0439\u0437\u0435\u043d \u0411\u0430\u043d\u043a \u0410\u0432\u0430\u043b\u044c",
+    "description": " \u0429\u043e \u0440\u043e\u0431\u0438\u0442\u0438:\u0437\u0430\u0439\u043c\u0430\u0442\u0438\u0441\u044c \u0440\u043e\u0437\u0440\u043e\u0431\u043a\u043e\u044e \u0442\u0430 \u043f\u0456\u0434\u0442\u0440\u0438\u043c\u043a\u043e\u044e \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u043f\u0440\u0438\u0439\u043d\u044f\u0442\u0442\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u0438\u0445 \u0440\u0456\u0448\u0435\u043d\u043d\u044f \u0437 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f\u043c SQL \u0442\u0430 Java\u0443\u0447\u0430\u0441\u0442\u044c \u0432 \u043d\u043e\u0432\u043e\u043c\u0443 \u043f\u0440\u043e\u0435\u043a\u0442\u0456 \u0432\u043f\u0440\u043e\u0432\u0430\u0434\u0436\u0435\u043d\u043d\u044f Application...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 220,
+  "fields": {
+    "url": "https://rabota.ua/company9190486/vacancy7958602",
+    "title": "Middle Back-End Developer",
+    "company": "\u041d\u043e\u0432\u0430 \u041f\u043e\u0448\u0442\u0430 \u0426\u0435\u043d\u0442\u0440",
+    "description": " \u041c\u0438 \u043d\u043e\u0432\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u0430 \u0406\u0422 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f \u041d\u043e\u0432\u0430 \u041f\u043e\u0448\u0442\u0430-\u0426\u0435\u043d\u0442\u0440, \u0449\u043e \u0432\u0445\u043e\u0434\u0438\u0442\u044c \u0432 \u0433\u0440\u0443\u043f\u0443 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u0439 \u041d\u043e\u0432\u0430 \u043f\u043e\u0448\u0442\u0430. \u0423 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0456\u0437 \u0440\u043e\u0437\u0448\u0438\u0440\u0435\u043d\u043d\u044f\u043c \u0448\u0442\u0430\u0442\u0443 \u043e\u0433\u043e\u043b\u043e\u0448\u0443\u0454\u043c\u043e \u043a\u043e\u043d\u043a\u0443\u0440\u0441 \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 Middle...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 221,
+  "fields": {
+    "url": "https://rabota.ua/company1037/vacancy7966152",
+    "title": "Middle Java Developer (ID1613)",
+    "company": "\u0420\u0430\u0439\u0444\u0444\u0430\u0439\u0437\u0435\u043d \u0411\u0430\u043d\u043a \u0410\u0432\u0430\u043b\u044c",
+    "description": " What do you need:2+ years of commercial experience with Java 8 +1+ years of writing unit-test2+ years of using jdbc, xml, mq, web-service'sAbility to use...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 222,
+  "fields": {
+    "url": "https://rabota.ua/company6209095/vacancy8328307",
+    "title": "Middle/Senior Java Developer",
+    "company": "Intel 471",
+    "description": " Who Intel 471 are:The mission of Intel 471 is to protect your organization, your products, your assets and your people. We are building an actor-focused...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 223,
+  "fields": {
+    "url": "https://rabota.ua/company1292653/vacancy8317722",
+    "title": "Middle Java developer",
+    "company": "\u0423\u041a\u0420\u041a\u0410\u0420\u0422, \u0422\u041e\u0412",
+    "description": " Looking for:Experience with Java 3+ years;Experience with: SQL, PostgreSQL, MySQL;BPMN;Apache Camel;Spring Framework, Spring Boot;Maven;Docker;-Good understanding:...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 224,
+  "fields": {
+    "url": "https://rabota.ua/company935403/vacancy8322740",
+    "title": "Java Developer (remote / office)",
+    "company": "IT Recruitment Solutions (ITRS.ua) \u00ae",
+    "description": " REQUIREMENTS:Java programming experience at least 3 years;Expertise with Spring from 1 year;Skills with MongoDB and RabbitMQ will be an advantage;English:...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 225,
+  "fields": {
+    "url": "https://rabota.ua/company394872/vacancy7963462",
+    "title": "Senior Java Engineer",
+    "company": "Codeminders",
+    "description": " We are looking for Senior Java EngineerRequirements:BS or MS in Computer Science or related fieldSignificant experience in Java8 (Core, Networking, RES,...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 226,
+  "fields": {
+    "url": "https://rabota.ua/company171327/vacancy7810508",
+    "title": "Middle Java Developer",
+    "company": "Developex",
+    "description": " Required skills: Experience in Java development at least 1,5 years is a must;Good in Java Core, Spring, Hibernate, JUnit, Mockito;Understanding of Maven;Experience...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 227,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy8159739",
+    "title": "Middle Java Engineer",
+    "company": "DataArt",
+    "description": " DataArt is a global software engineering firm. With over 20 years of experience, teams of highly-trained engineers around the world, deep industry sector...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 228,
+  "fields": {
+    "url": "https://rabota.ua/company1277303/vacancy8290319",
+    "title": "Android developer (Level \u2013 Strong Middle)",
+    "company": "ROZETKA",
+    "description": " \u041d\u0430\u0439\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0456\u0448\u043e\u043c\u0443 \u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0443 Rozetka.ua \u043f\u043e\u0442\u0440\u0456\u0431\u0435\u043d \u00abAndroid developer \u00bb \u0427\u0438\u043c \u043f\u043e\u0442\u0440\u0456\u0431\u043d\u043e \u0437\u0430\u0439\u043c\u0430\u0442\u0438\u0441\u044c:\u0420\u043e\u0437\u0440\u043e\u0431\u043a\u043e\u044e \u043d\u043e\u0432\u0438\u0445 \u043c\u043e\u0431\u0456\u043b\u044c\u043d\u0438\u0445 Adnroid \u0434\u043e\u0434\u0430\u0442\u043a\u0456\u0432;\u041f\u0456\u0434\u0442\u0440\u0438\u043c\u043a\u043e\u044e...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 229,
+  "fields": {
+    "url": "https://rabota.ua/company4504083/vacancy7109501",
+    "title": "Java developer",
+    "company": "\u0423\u043a\u0440\u043f\u043e\u0448\u0442\u0430",
+    "description": " \u0412\u0430\u0448\u0456 \u0437\u0430\u0434\u0430\u0447\u0456:\u0423\u0447\u0430\u0441\u0442\u044c \u0443 \u0436\u0438\u0442\u0442\u0454\u0432\u043e\u043c\u0443 \u0446\u0438\u043a\u043b\u0456 \u0440\u043e\u0437\u0440\u043e\u0431\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0443 (web API) \u043d\u0430 \u0432\u0441\u0456\u0445 \u0439\u043e\u0433\u043e \u0435\u0442\u0430\u043f\u0430\u0445, \u0432\u0456\u0434 \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u043f\u0440\u043e\u0435\u043a\u0442\u0443 \u0434\u043e \u0439\u043e\u0433\u043e \u0440\u043e\u0437\u0433\u043e\u0440\u0442\u0430\u043d\u043d\u044f \u043d\u0430 product...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 230,
+  "fields": {
+    "url": "https://rabota.ua/company307419/vacancy8040768",
+    "title": "Middle/Senior Java Developer ",
+    "company": "\u041a\u0420\u0415\u0414\u0406 \u0410\u0413\u0420\u0406\u041a\u041e\u041b\u042c \u0411\u0410\u041d\u041a",
+    "description": " The main task - Software development for digital banking platform Requirements:2+ years of hands-on development experience using Java, SpringBoot, Git...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 231,
+  "fields": {
+    "url": "https://rabota.ua/company750796/vacancy8231985",
+    "title": "Middle Java Developer",
+    "company": "\u041c\u0415\u0413\u0410\u0411\u0410\u041d\u041a, \u041a\u0424 \u041f\u0410\u041e",
+    "description": " \u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u044b \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 Megabank, \u0438\u0449\u0435\u043c \u043a\u043e\u043b\u043b\u0435\u0433\u0443 - Middle Java Developer, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0431\u0443\u0434\u0435\u0442 \u0447\u0430\u0441\u0442\u044c\u044e \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u043d\u0435\u043e\u0431\u0430\u043d\u043a\u0430 \u00abtodobank\u00bb.\u0426\u0435\u043b\u044c \u043f\u0440\u043e\u0435\u043a\u0442\u0430 -...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 232,
+  "fields": {
+    "url": "https://rabota.ua/company4751665/vacancy8322098",
+    "title": "Middle Java Developer (Back-end)",
+    "company": "TAMGA",
+    "description": " \u0422\u0430mga is a friendly and dynamic team with many years of experience in leading European banks and financial institutions.Our team is working on providing...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 233,
+  "fields": {
+    "url": "https://rabota.ua/company569821/vacancy8192760",
+    "title": "\u041f\u0440\u043e\u0432\u0456\u0434\u043d\u0438\u0439 \u0456\u043d\u0436\u0435\u043d\u0435\u0440 \u0441\u0443\u043f\u0440\u043e\u0432\u043e\u0434\u0443 Java-\u0434\u043e\u0434\u0430\u0442\u043a\u0456\u0432",
+    "company": "UKRSIBBANK BNP Paribas Group ",
+    "description": " UKRSIBBANK BNP Paribas Group \u0437\u0430\u043f\u0440\u043e\u0448\u0443\u0454 \u043f\u0440\u0438\u0439\u043d\u044f\u0442\u0438 \u0443\u0447\u0430\u0441\u0442\u044c \u0443 \u043a\u043e\u043d\u043a\u0443\u0440\u0441\u0456 \u043d\u0430 \u0432\u0430\u043a\u0430\u043d\u0441\u0456\u044e: \u041f\u0440\u043e\u0432\u0456\u0434\u043d\u0438\u0439 \u0456\u043d\u0436\u0435\u043d\u0435\u0440 \u0426\u0435\u043d\u0442\u0440\u0443 \u0441\u0443\u043f\u0440\u043e\u0432\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u0442\u0430 \u0440\u043e\u0437\u0432\u0438\u0442\u043a\u0443 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c \u0417 \u043d\u0430\u043c\u0438...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 234,
+  "fields": {
+    "url": "https://rabota.ua/company4751665/vacancy7904933",
+    "title": "Technical Team Lead",
+    "company": "TAMGA",
+    "description": " Tamga is a friendly and dynamic team with many years of experience in leading European banks and financial institutions. Our team is working on providing...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 235,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy8327620",
+    "title": "Junior Java Developer (IRC107621)",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine is inviting a Junior Java Developer to join its Kyiv office.We are looking for Junior Java Developer who can join our dynamic team....\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 236,
+  "fields": {
+    "url": "https://rabota.ua/company209907/vacancy8332301",
+    "title": "Lead Big Data Engineer for Ciklum Digital",
+    "company": "Ciklum",
+    "description": " On behalf of Data & Analytics, Ciklum is looking for a Lead Big Data Engineer to join the UA team on a full-time basis.You will join a highly motivated...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 237,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/188035-lead-back-end-java-engineer",
+    "title": "Lead Back End Java Engineer",
+    "company": "\u00a0KitRUM",
+    "description": "We're looking for a Lead Back End Java Engineer to join the project with a Swedish company, a leading player in the rapidly growing market for online gaming, with well-known brands and strong positions, primarily in casino and sports betting. \r\nStack: Java, Tomcat, Spring boot, Kafka, MySQL.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 238,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/playtika-ua/vacancies/135552/",
+    "title": "Java Developer (Data)",
+    "company": "\u00a0Playtika",
+    "description": "\n\t\t\t\t\tPlaytika is\u00a0looking for a\u00a0Java/Data Developer to\u00a0join the Kyiv office on\u00a0a\u00a0full- time basis.\n\nPlaytika\u00a0\u2014 the company of\u00a0storytellers and coders, artists and data-scientists, explorers and strategists. Since 2010, Playtika has been a\u00a0pioneer in\u00a0the social games industry.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 239,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3428787/",
+    "title": "\nMiddle Java Developer with Angular\n",
+    "company": "Raiffeisen Bank International",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            We\u00a0expect:    Your commitment to\u00a0develop professional application software for the finance industry \u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 240,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4063809/",
+    "title": "\nJava Developer (Mobile Wallet)\n",
+    "company": "Sigma Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            We\u00a0welcome a\u00a0Java Developer for a\u00a0long-term enterprise project in\u00a0telecom and fintech domains. Our client\u2026\u2060\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 241,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/176818-java-team-lead-gsp-",
+    "title": "Java Team Lead (GSP)",
+    "company": "\u00a0Luxoft",
+    "description": "Our Client is a US multinational investment bank and financial services corporation.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 242,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/161982-senior-java-developer-nap-",
+    "title": "Senior Java Developer (nap)",
+    "company": "\u00a0Luxoft",
+    "description": "The team developing and supporting Product data for the Company Analytical Platform.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 243,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/162612-senior-aqa-java-engineer",
+    "title": "Senior AQA Java Engineer",
+    "company": "\u00a0F3NIX",
+    "description": "For the new product iGaming platform, we are looking for Automation QA Engineer, who will join our team in Kyiv, Ukraine.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 244,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/165723-big-data-developer",
+    "title": "Big Data Developer",
+    "company": "\u00a0G5 Entertainment",
+    "description": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u043e\u0432 \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432 \u044d\u043a\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u044b Hadoop. \u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f ETL-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432. \u041e\u043f\u044b\u0442 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043d\u0430 Java \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 2 \u043b\u0435\u0442. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430\u043c\u0438 \u044d\u043a\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u044b Hadoop \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 1 \u0433\u043e\u0434\u0430. \u0423\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u0442\u044c\u0441\u044f \u0432 \u0447\u0443\u0436\u043e\u043c \u043a\u043e\u0434\u0435.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 245,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/162706-senior-java-developer-with-sql",
+    "title": "Senior Java Developer with SQL",
+    "company": "\u00a0Luxoft",
+    "description": "One of the top global / US banks is seeking to improve its data governance processes, and to remediate a large backlog of data quality issues.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 246,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/162515-senior-java-developer-aof-",
+    "title": "Senior Java Developer (AOF)",
+    "company": "\u00a0Luxoft",
+    "description": "Account Opening Form is part of Online Banking system for Corporate Clients.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 247,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/151170-team-lead-java-datacloud-",
+    "title": "Team Lead Java (Datacloud)",
+    "company": "\u00a0Luxoft",
+    "description": "Datacloud Unity, \r\nclient - American multinational investment bank",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 248,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/188100-senior-back-end-java-developer-for-coronet",
+    "title": "Senior Back End (Java) Developer for Coronet",
+    "company": "\u00a0Ciklum",
+    "description": "Coronet is the fastest-growing security company for small and medium businesses (SMBs) in the US. We provide security-as-a-service for SMBs powered by AI and Cloud with a cloud security platform that protects private data stored in the cloud.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 249,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/164565-senior-full-stack-developer-java-react-go-nic",
+    "title": "Senior Full Stack Developer (Java + React, Go nice to have)",
+    "company": "\u00a0Luxoft",
+    "description": "You will be part of a multi-national R&D team responsible for the development of various innovative Proof Of Concept (POC) applications using cloud-based cutting edge technologies.",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 250,
+  "fields": {
+    "url": "https://djinni.co/jobs2/jobs2/151167-senior-java-developer-datacloud-",
+    "title": "Senior Java Developer (Datacloud)",
+    "company": "\u00a0Luxoft",
+    "description": "Datacloud Unity, \r\nclient - American multinational investment bank",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 251,
+  "fields": {
+    "url": "https://rabota.ua/company2303360/vacancy8335074",
+    "title": "Senior Python developer for Logistics & Supply Chain company",
+    "company": "FlexMade ",
+    "description": " We are looking for an experienced Python developer to join our team!\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438:Excellent Python Core knowledgeExcellent Relational Databases knowledge...\n",
+    "city": 3,
+    "language": 1,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 252,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/137419/",
+    "title": "Lead Back End Java Engineer",
+    "company": "\u00a0KitRUM",
+    "description": "\n\t\t\t\t\tClient\u2019s company is\u00a0a\u00a0leading player in\u00a0the rapidly growing market for online gaming via mobile, tablet and computer, with well-known brands and strong positions, primarily in\u00a0casino and sports betting.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 253,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sigma-software/vacancies/127748/",
+    "title": "Strong Middle Java Developer (Telecom domain)",
+    "company": "\u00a0Sigma Software",
+    "description": "\n\t\t\t\t\tOur Customer is\u00a0a\u00a0multi-billion telco provider with thousands of\u00a0employments, a\u00a0household name.\nWe\u00a0work on\u00a0a\u00a0stable project which would appreciate well-thought-out ideas and fast development to\u00a0improve project architecture, error tracing, CI/CD, etc.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 254,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/kitrum/vacancies/144435/",
+    "title": "Junior Back End Java Engineer",
+    "company": "\u00a0KitRUM",
+    "description": "\n\t\t\t\t\tProject description\n\nClient\u2019s company is\u00a0a\u00a0leading player in\u00a0the rapidly growing market for online gaming via mobile, tablet and computer, with well-known brands and strong positions, primarily in\u00a0casino and sports betting.\n\t\t\t\t",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 255,
+  "fields": {
+    "url": "https://rabota.ua/company137368/vacancy8317461",
+    "title": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0456\u0441\u0442 Android",
+    "company": "\u0411\u0430\u043d\u043a \u041a\u0440\u0435\u0434\u0438\u0442 \u0414\u043d\u0456\u043f\u0440\u043e, \u0410\u0422",
+    "description": " \u0424\u0443\u043d\u043a\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u043e\u0431\u043e\u0432'\u044f\u0437\u043a\u0438: \u0431\u0440\u0430\u0442\u0438 \u0443\u0447\u0430\u0441\u0442\u044c \u0432 \u0440\u043e\u0437\u0440\u043e\u0431\u0446\u0456 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0438 \u043d\u043e\u0432\u043e\u0433\u043e \u043d\u0435\u043e-\u0431\u0430\u043d\u043a\u0443 (\u043e\u0441\u043d\u043e\u0432\u043d\u0438\u0439 \u0444\u0443\u043d\u043a\u0446\u0456\u043e\u043d\u0430\u043b \u0433\u043e\u0442\u043e\u0432\u0438\u0439); \u0456\u043c\u043f\u043b\u0435\u043c\u0435\u043d\u0442\u0443\u0432\u0430\u0442\u0438 \u0434\u0438\u0437\u0430\u0439\u043d \u0432 \u043a\u043e\u0434;\u0431\u0440\u0430\u0442\u0438 \u0443\u0447\u0430\u0441\u0442\u044c \u0432 \u0440\u043e\u0437\u0440\u043e\u0431\u0446\u0456...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 256,
+  "fields": {
+    "url": "https://rabota.ua/company4824814/vacancy7207579",
+    "title": "\u0420\u043e\u0437\u0440\u043e\u0431\u043d\u0438\u043a \u0456\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0456\u0439\u043d\u0438\u0445 \u0440\u0456\u0448\u0435\u043d\u044c(ESB)",
+    "company": "\u0406\u0422 \u0421\u041f\u0415\u0426\u0406\u0410\u041b\u0406\u0421\u0422, \u0422\u041e\u0412",
+    "description": " \u041e\u0447\u0456\u043a\u0443\u0432\u0430\u043d\u043d\u044f \u0432\u0456\u0434 \u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u0430:\u0432\u0438\u0449\u0430 \u0442\u0435\u0445\u043d\u0456\u0447\u043d\u0430 \u043e\u0441\u0432\u0456\u0442\u0430;\u0434\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0431\u043e\u0442\u0438 \u0432 \u0441\u0444\u0435\u0440\u0456 \u0406\u0422 \u0432\u0456\u0434 2-\u0445 \u0440\u043e\u043a\u0456\u0432;\u0437\u043d\u0430\u043d\u043d\u044f \u043e\u0441\u043d\u043e\u0432 XML, XSLT, XPath, SQL (PL / SQL, ESQL), Web Services...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 257,
+  "fields": {
+    "url": "https://rabota.ua/company1100697/vacancy8214135",
+    "title": "Senior Java Software Engineer",
+    "company": "Yael Acceptic",
+    "description": " Our company invites tech-savvy and goal-oriented Senior Java Software Engineer. You have a great opportunity to join an experienced computer-vision and...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 258,
+  "fields": {
+    "url": "https://rabota.ua/company1042/vacancy8182405",
+    "title": "Middle/Senior Java Developer",
+    "company": "OTP BANK Ukraine",
+    "description": " You are invited to join the ambitious team who build a completely new mobile banking product. We aim to have our Customers in the center of our product...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 259,
+  "fields": {
+    "url": "https://rabota.ua/company825/vacancy8182123",
+    "title": "Java Developer (Integration Project)",
+    "company": "Sigma Software",
+    "description": " Strive to work with a new exciting highload project with microservices architecture? Here your dream will come true!The project provides you with up-to-date...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 260,
+  "fields": {
+    "url": "https://rabota.ua/company825/vacancy8181768",
+    "title": "Java Developer (Java/Big Data Unit)",
+    "company": "Sigma Software",
+    "description": " Are you a Java professional who is thrilled about designing the right architecture for a new client and kicking it off at full scale in production? Are...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 261,
+  "fields": {
+    "url": "https://rabota.ua/company825/vacancy8208648",
+    "title": "Java Developer (Mobile Wallet)",
+    "company": "Sigma Software",
+    "description": " We welcome a Java Developer for a long-term enterprise project in telecom and fintech domains.Our client is one of the three biggest telecommunication...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 262,
+  "fields": {
+    "url": "https://rabota.ua/company598120/vacancy8308365",
+    "title": "Senior Java Engineer #8231",
+    "company": "Lohika",
+    "description": " Purpose of the job:Mission. Passwordless is the future of Identity. And we are rethinking Device based Identities. Our software provides enterprises and...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 263,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy8329147",
+    "title": "Android Developer, Communications Services",
+    "company": "DataArt",
+    "description": " Our client is a conglomerate of telecommunication companies. Its experts create tools for testing the performance of new solutions. These tools are used...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 264,
+  "fields": {
+    "url": "https://rabota.ua/company7561883/vacancy8175234",
+    "title": "Middle/Senior Java Developer",
+    "company": "EVOLVE Dev",
+    "description": " Evolve is a UK-based software house and tech consultancy specialized in bespoke application development and software team extension for startups and blue-chip...\n",
+    "city": 4,
+    "language": 2,
+    "created": "2021-01-07"
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 3,
+    "language": 1,
+    "data": {
+      "work": "https://www.work.ua/ru/jobs-kharkiv-python/",
+      "rabota": "https://rabota.ua/zapros/python/%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2",
+      "dou": "https://jobs.dou.ua/vacancies/?city=%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2&category=Python",
+      "djinni": "https://djinni.co/jobs2/?category=python&location=kharkiv"
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 2,
+  "fields": {
+    "city": 4,
+    "language": 2,
+    "data": {
+      "work": "https://www.work.ua/ru/jobs-kyiv-java/",
+      "rabota": "https://rabota.ua/zapros/java/%d0%ba%d0%b8%d0%b5%d0%b2",
+      "dou": "https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D0%B5%D0%B2&category=Java",
+      "djinni": "https://djinni.co/jobs2/?category=java&location=kyiv"
+    }
+  }
+}
+]
