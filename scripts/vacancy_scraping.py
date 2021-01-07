@@ -1,17 +1,13 @@
 import asyncio
-import django
-import os
-import sys
 import logging
+from datetime import date
 
 from django.contrib.auth import get_user_model
-
-project_path = os.path.dirname(os.path.abspath('manage.py'))
-sys.path.append(project_path)
-os.environ['DJANGO_SETTINGS_MODULE'] = 'work_scraping.settings'
-django.setup()
-
+from django.core.mail import EmailMultiAlternatives
 from django.db import DatabaseError
+
+from scripts import setup_django
+setup_django()  # NOTE: Django setup for using app models
 
 from scraping.models import Vacancy, Url
 from scraping.parsers import (
@@ -21,6 +17,7 @@ from scraping.parsers import (
     DjinniParser,
     ParserError,
 )
+from work_scraping.settings import EMAIL_HOST_USER
 
 log = logging.getLogger('django')
 parsers_mapping = {
@@ -30,6 +27,7 @@ parsers_mapping = {
     'djinni': DjinniParser,
 }
 vacancies = []
+parsing_errors = []
 
 
 def get_settings():
@@ -48,8 +46,9 @@ def get_urls():
         {
             'city': setting[0],
             'language': setting[1],
-            'url_data': prepared_data.get(setting)
+            'url_data': prepared_data[setting]
         } for setting in get_settings()
+        if setting in prepared_data
     ]
 
 
@@ -59,6 +58,7 @@ async def main(values):
         await loop.run_in_executor(None, parser(url, city, language).scrap)
         vacancies.extend(parser.vacancies)
     except ParserError as e:
+        parsing_errors.append(e)
         log.error(e)
 
 prepared_tasks = [
@@ -78,3 +78,16 @@ if vacancies:
             v.save()
         except DatabaseError as e:
             log.error(e)
+
+if parsing_errors:
+    msg = EmailMultiAlternatives(
+        f'Parsing Errors on { date.today() }',
+        'Parsing Errors',
+        EMAIL_HOST_USER,
+        [EMAIL_HOST_USER]
+    )
+    html = ''
+    for error in parsing_errors:
+        html += f'<p>{ error }</p>'
+    msg.attach_alternative(html, "text/html")
+    msg.send()

@@ -39,6 +39,9 @@ class Vacancy(models.Model):
     language = models.ForeignKey('Language', on_delete=models.CASCADE)
     created = models.DateField(auto_now_add=True)
 
+    class Meta:
+        ordering = ['-created']
+
     def __str__(self):
         return self.title
 

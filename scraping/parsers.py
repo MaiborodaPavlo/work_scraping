@@ -1,7 +1,9 @@
+import logging
 import random
 import requests
 from bs4 import BeautifulSoup
 
+log = logging.getLogger('django')
 
 HEADERS = [
     {
@@ -91,15 +93,20 @@ class RabotaUaParser(BaseParser):
         trs = table.find_all('tr', attrs={'id': True})
         for tr in trs:
             _card = tr.find('div', attrs={'class': 'card-body'})
-            _main_info = _card.find('h2', attrs={'class': 'card-title'})
-            self.vacancies.append({
-                'title': _main_info.a['title'],
-                'url': self.domain + _main_info.a['href'],
-                'description': _card.find('div', 'card-description').text,
-                'company': _card.find('p', attrs={'class': 'company-name'}).a.text,
-                'city_id': self.city_id,
-                'language_id': self.language_id,
-            })
+            _main_info = _card.find('div', attrs={'class': 'common-info'})
+            _title = _main_info.find('h2', attrs={'class': 'card-title'})
+            try:
+                self.vacancies.append({
+                    'title': _title.a['title'],
+                    'url': self.domain + _title.a['href'],
+                    'description': _card.find('div', 'card-description').text,
+                    'company': _main_info.find('p', attrs={'class': 'company-name'}).a.text,
+                    'city_id': self.city_id,
+                    'language_id': self.language_id,
+                })
+            except AttributeError as e:
+                log.error(e)
+                continue
 
 
 class DouUaParser(BaseParser):
@@ -137,7 +144,7 @@ class DjinniParser(BaseParser):
                 'title': _title.a.text,
                 'url': self.domain + _title.a['href'],
                 'description': div.find_all('p')[2].text,
-                'company': _title.find('span', attrs={'class': 'company'}).text,
+                'company': _title.find('span', attrs={'class': 'company'}).text.lstrip('at '),
                 'city_id': self.city_id,
                 'language_id': self.language_id,
             })
