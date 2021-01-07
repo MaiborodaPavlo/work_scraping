@@ -8,8 +8,11 @@
     <div class="row">
         <div class="col-md-6 mx-auto">
             <div class="text-center my-2">
-                <h5>Service for the collection and mailing of vacancies</h5>
+                <h4>Service for the collection and mailing of vacancies</h4>
                 <p>To view available vacancies fill out the form below</p>
+                {% if not request.user.is_authenticated %}
+                    <p>To receive a newsletter with fresh vacancies according to your data set, <a href="{% url 'accounts:register' %}">register</a></p>
+                {% endif %}
             </div>
             <form>
                 <div class="form-group">

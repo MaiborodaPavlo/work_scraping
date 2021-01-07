@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Kavoon;
+    src: url("../fonts/Kavoon-Regular.ttf");
+}
+#brand {
+    font-family: Kavoon;
+    color: #FFF;
+}
