@@ -85,7 +85,6 @@ def contact_view(request):
         form = ContactForm(request.POST)
         if form.is_valid() and request.recaptcha_is_valid:
             send_contact_email.delay(form.cleaned_data)
-            messages.success(request, 'Your request has been sent')
-            return redirect('accounts:contact')
+            messages.success(request, 'Your request has been sent.')
     form = ContactForm()
     return render(request, 'accounts/contact.html', {'recaptcha_site_key': RECAPTCHA_SITE_KEY, 'form': form})
