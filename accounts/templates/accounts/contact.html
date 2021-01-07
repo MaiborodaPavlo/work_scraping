@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Contacts
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="text-center my-2">
+                <h5>Contact Form</h5>
+                <p>
+                    If the site does not have a boring combination of city-specialty,
+                    fill out the form below and we will add it.
+                    Then we will send a notification to the specified email
+                </p>
+            </div>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.as_p }}
+                    <script src='https://www.google.com/recaptcha/api.js'></script>
+                    <div class="g-recaptcha" data-sitekey="{{ recaptcha_site_key }}"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

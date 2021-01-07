@@ -7,7 +7,7 @@ from django.contrib.auth import get_user_model
 from scripts import setup_django
 setup_django()  # NOTE: Django setup for using app models
 
-from scraping.models import Vacancy
+from scraping.models import Vacancy, Url
 from work_scraping.settings import EMAIL_HOST_USER
 
 today = date.today()
@@ -30,7 +30,7 @@ if users:
     vacancies = defaultdict(list)
     for vacancy in query:
         vacancies[(vacancy['city_id'], vacancy['language_id'])].append(vacancy)
-    
+
     for key, emails in users.items():
         rows = vacancies.get(key, [])
         html = ''
@@ -42,3 +42,13 @@ if users:
             msg = EmailMultiAlternatives(subject, text_content, EMAIL_HOST_USER, [email])
             msg.attach_alternative(html or empty, "text/html")
             msg.send()
+
+    url_html = ''
+    urls = Url.objects.all().values('city', 'language')
+    for url in urls:
+        if url.values() not in users.keys():
+            url_html += f"<p>For city: {url['city']}  and language: {url['language']} is not exists urls</p>"
+    if url_html:
+        msg = EmailMultiAlternatives('Urls is not exists', 'Urls is not exists', EMAIL_HOST_USER, [EMAIL_HOST_USER])
+        msg.attach_alternative(url_html, "text/html")
+        msg.send()

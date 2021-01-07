@@ -7,11 +7,15 @@ from django.contrib.auth import (
 )
 from django.shortcuts import render, redirect
 
+from work_scraping.settings import RECAPTCHA_SITE_KEY
 from .forms import (
-    UserLoginForm, 
-    UserRegisterForm, 
+    UserLoginForm,
+    UserRegisterForm,
     UserUpdateForm,
+    ContactForm,
 )
+from .tasks import send_contact_email
+from .utils import check_recaptcha
 
 User = get_user_model()
 
@@ -73,3 +77,15 @@ def delete_view(request):
             _user.delete()
             messages.success(request, 'User deleted successfully.')
     return redirect('home')
+
+
+@check_recaptcha
+def contact_view(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid() and request.recaptcha_is_valid:
+            send_contact_email.delay(form.cleaned_data)
+            messages.success(request, 'Your request has been sent')
+            return redirect('accounts:contact')
+    form = ContactForm()
+    return render(request, 'accounts/contact.html', {'recaptcha_site_key': RECAPTCHA_SITE_KEY, 'form': form})

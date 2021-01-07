@@ -6,6 +6,7 @@ from .views import (
     register_view,
     update_view,
     delete_view,
+    contact_view,
 )
 
 urlpatterns = [
@@ -14,4 +15,5 @@ urlpatterns = [
     path('register/', register_view, name='register'),
     path('update/', update_view, name='update'),
     path('delete/', delete_view, name='delete'),
+    path('contact/', contact_view, name='contact'),
 ]
