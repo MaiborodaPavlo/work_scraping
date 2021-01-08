@@ -16,7 +16,7 @@ def home_view(request):
             _filters['city__slug'] = city
         if language:
             _filters['language__slug'] = language
-        query_set = Vacancy.objects.filter(**_filters)
+        query_set = Vacancy.objects.filter(**_filters).select_related('city', 'language')
 
         paginator = Paginator(query_set, 10)  # Show 10 contacts per page.
         page_number = request.GET.get('page')

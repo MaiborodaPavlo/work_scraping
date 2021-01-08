@@ -1,22 +1,18 @@
-from django.forms import (
-    Form,
-    ModelChoiceField,
-    Select,
-)
+from django import forms
 
 from .models import City, Language
 
 
-class SearchForm(Form):
-    city = ModelChoiceField(
+class SearchForm(forms.Form):
+    city = forms.ModelChoiceField(
         queryset=City.objects.all(),
         to_field_name='slug',
         required=False,
-        widget=Select(attrs={'class': 'form-control'}),
+        widget=forms.Select(attrs={'class': 'form-control'}),
     )
-    language = ModelChoiceField(
+    language = forms.ModelChoiceField(
         queryset=Language.objects.all(),
         to_field_name='slug',
         required=False,
-        widget=Select(attrs={'class': 'form-control'}),
+        widget=forms.Select(attrs={'class': 'form-control'}),
     )
