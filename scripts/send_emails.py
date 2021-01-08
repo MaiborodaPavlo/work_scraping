@@ -19,11 +19,10 @@ query = User.objects.filter(is_subscribed=True).values('city', 'language', 'emai
 users = defaultdict(list)
 params = {'city_id__in': set(), 'language_id__in': set()}
 for user in query:
-    if user['city']:
+    if user['city'] and user['language']:
+        users[(user['city'], user['language'])].append(user['email'])
         params['city_id__in'].add(user['city'])
-    if user['language']:
         params['language_id__in'].add(user['language'])
-    users[(user['city'], user['language'])].append(user['email'])
 
 if users:
     query = Vacancy.objects.filter(**params, created=today).values()
@@ -44,10 +43,11 @@ if users:
             msg.send()
 
     url_html = ''
-    urls = Url.objects.all().values('city', 'language')
-    for url in urls:
-        if url.values() not in users.keys():
-            url_html += f"<p>For city: {url['city']}  and language: {url['language']} is not exists urls</p>"
+    _urls = Url.objects.all().values('city', 'language')
+    existing_urls = [(url['city'], url['language']) for url in _urls]
+    for pair in users.keys():
+        if pair not in existing_urls:
+            url_html += f"<p>For city: {pair[0]} and language: {pair[1]} is not exists urls</p>"
     if url_html:
         msg = EmailMultiAlternatives('Urls is not exists', 'Urls is not exists', EMAIL_HOST_USER, [EMAIL_HOST_USER])
         msg.attach_alternative(url_html, "text/html")

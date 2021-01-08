@@ -57,19 +57,20 @@ async def main(values):
     try:
         await loop.run_in_executor(None, parser(url, city, language).scrap)
         vacancies.extend(parser.vacancies)
-    except ParserError as e:
-        parsing_errors.append(e)
-        log.error(e)
+    except ParserError as err:
+        parsing_errors.append(err)
+        log.error(err)
 
 prepared_tasks = [
     (parser, data['url_data'][key], data['city'], data['language'])
     for data in get_urls() if data['url_data']
     for key, parser in parsers_mapping.items()
 ]
-loop = asyncio.get_event_loop()
-tasks = asyncio.wait([loop.create_task(main(f)) for f in prepared_tasks])
-loop.run_until_complete(tasks)
-loop.close()
+if prepared_tasks:
+    loop = asyncio.get_event_loop()
+    tasks = asyncio.wait([loop.create_task(main(f)) for f in prepared_tasks])
+    loop.run_until_complete(tasks)
+    loop.close()
 
 if vacancies:
     for vacancy in vacancies:
